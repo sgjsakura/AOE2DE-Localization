@@ -1,0 +1,15 @@
+//INSTRUCTIONS:
+//When you create any mod by creating a directory inside Steam, 
+//certain files will automatically copy over, including this 
+//file when you run the game. If you want to replace or add any
+//strings, place them in this file and when the mod is enabled, 
+//these strings will also be added. The english string file is 
+//a global fallback when a string cannot be found in the 
+//desired native language file.
+//
+//If you would like to modify an existing string, copy only
+//the strings you wish to modify into this file, and do not
+//delete them from the original file.
+
+
+
