@@ -22,7 +22,9 @@ This mod is aid to support all languages for AOE2 DE version. However, the autho
 
 ## How to Use
 
-TBD. **Note: Under the GNU Lincense, this project is free to use personally, while you cannot use it in any commercial situation.**
+You may visit the [Mod Description Page](https://www.ageofempires.com/mods/details/845) to subscribe this mod. Please follow the intruction in this website to install it into your game.
+
+**Note: Under the GNU Lincense, this project is free to use personally, while you cannot use it in any commercial situation.**
 
 ## How to Contribute
 
