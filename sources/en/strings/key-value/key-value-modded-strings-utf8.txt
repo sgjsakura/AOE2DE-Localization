@@ -146,7 +146,7 @@
 8373 "Research Dry Dock (Ship +15% moving speed; Transport ship capacity +10)"
 8374 "Research Heated Shot (Watch tower-Lnie +125% extra damage vs Ships; Castle, Krepost, Harbor +4 damage vs Ships)"
 8375 "Research Elite Cannon Galleon (+2 max range/LOS/search radius; +10 attack, +75 damage vs Buildings)"
-8376 "Research Hoardings (Castle +20% HP)"
+8376 "Research Hoardings (Castle +21% HP)"
 8377 "Research Ship wright (All ships wood cost -20%, building rate +35%)"
 8378 "Research Siege Engineers (Siege weapon class units (except Rams) +1 max range, +20% damage vs Buildings (siege); Petard +200 damage vs Buildings (siege))"
 8379 "Research Obsidian Arrows (Archer-Line +6 damage vs Buildings, +6 extra vs Defensive Building)"
@@ -154,7 +154,7 @@
 8381 "Upgrade to Elite Longbowman. (+5 HP, +1 attack, +1P armor, +1 max range/LOS/search radius, +10% accuracy)"
 8382 "Upgrade to Elite Cataphract. (+40 HP, +3 attack, -0.1 reload time, +1 LOS, +3 damage vs Infantry, +1 extra vs Condottiero, Cavalry +4 armor)"
 8383 "Upgrade to Elite Woad Raider. (+15 HP, +5 attack, +2 LOS, +1 damage vs Eagle Warriors and Building)"
-8384 "Upgrade to Elite Chu Ko Nu. (+5 HP, -3 training time , Secondary arrow +2)"
+8384 "Upgrade to Elite Chu Ko Nu. (+5 HP, -3 training time , Secondary arrows +2)"
 8386 "Upgrade to Elite Huskarl. (+10 HP, +2 attack, +2P armor, +2 LOS, +5 damage vs Archer, +1 damage vs Eagle Warriors)"
 8387 "Upgrade to Elite Samurai. (+20 HP, +4 attack, +1 LOS, +2 damage vs Unique Unit, +1 damage vs Eagle Warriors and Building)"
 8388 "Upgrade to Elite Mangudai. (+2 attack, +1 armor, search radius +1, +2 damage vs Siege weapon)"
@@ -257,7 +257,7 @@
 
 26101 "Create <b>Cataphract<b> (<cost>) \nByzantine unique cavalry unit. Strong vs. infantry. Weak vs. archers. <i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed, to Elite Cataphract 1600F, 800G (Castle); more resistant to Monks.<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry, Unique Unit; Training time: 20; Moving speed: 1.35; Reload time: 1.8; LOS: 4; Search radius: 4. \nAdditional damage: +9 vs Infantry, +9 extra vs Condottiero; Additional Armor: Cavalry +12 armor."
 
-26102 "Create <b>Chu Ko Nu<b> (<cost>) \nChinese unique archer with rapid-fire attack. Strong vs. infantry. Weak vs. archers and siege weapons. <i> Upgrades: attack, range (Blacksmith); accuracy (Archery Range); attack, accuracy (University); creation speed, to Elite Chu Ko Nu 760F, 760G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Archer; Tags: Archer, Unique Unit; Training time: 16; Moving speed: 0.96; Reload time: 3; Accuracy: 85%; Dispersion radius: 0.33; LOS: 6; Search radius: 6. \nAdditional damage: +2 vs Pikeman; Secondary arrows: 2; Secondary arrow base attack: pierce 3 + melee 0."
+26102 "Create <b>Chu Ko Nu<b> (<cost>) \nChinese unique archer with rapid-fire attack. Strong vs. infantry. Weak vs. archers and siege weapons. <i> Upgrades: attack, range (Blacksmith); accuracy (Archery Range); attack, accuracy (University); creation speed, to Elite Chu Ko Nu 760F, 760G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Archer; Tags: Archer, Unique Unit; Training time: 16; Moving speed: 0.96; Reload time: 3; Accuracy: 85%; Dispersion radius: 0.33; LOS: 6; Search radius: 6. \nAdditional damage: +2 vs Pikeman; Secondary arrows: 2; Secondary arrow base attack: 3 pierce + 0 melee."
 
 26103 "Create <b>Mameluke<b> (<cost>) \nSaracen unique camel unit with ranged melee attack. Strong vs. cavalry. Weak vs. archers and Pikemen. <i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed, to Elite Mameluke 600F, 500G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Camel, Mameluke, Archer, Unique Unit; Training time: 23; Moving speed: 1.4; Reload time: 2; Accuracy: 100%; LOS: 5; Search radius: 5. \nAdditional damage: +9 vs cavalries."
 
@@ -424,13 +424,13 @@
 
 26451 "Create <b>Elite Cataphract<b> (<cost>) \nByzantine unique cavalry unit. Strong vs. infantry. Weak vs. archers.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry, Unique Unit; Training time: 20; Moving speed: 1.35; Reload time: 1.7; LOS: 5; Search radius: 4. \nAdditional damage: +12 vs Infantry, +10 extra vs Condottiero; Additional Armor: Cavalry +16 armor."
 
-26452 "Create <b>Elite Chu Ko Nu<b> (<cost>) \nChinese unique archer with rapid-fire attack. Strong vs. infantry. Weak vs. archers and siege weapons.<i> Upgrades: attack, range, armor (Blacksmith); accuracy (Archery Range); attack, accuracy (University); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Archer; Tags: Archer, Unique Unit; Training time: 13; Moving speed: 0.96; Reload time: 3; Accuracy: 85%; Dispersion radius: 0.33; LOS: 6; Search radius: 6. \nAdditional damage: +2 vs Pikeman; Secondary arrows: 4; Secondary arrow base attack: pierce 3 + melee 0."
+26452 "Create <b>Elite Chu Ko Nu<b> (<cost>) \nChinese unique archer with rapid-fire attack. Strong vs. infantry. Weak vs. archers and siege weapons.<i> Upgrades: attack, range, armor (Blacksmith); accuracy (Archery Range); attack, accuracy (University); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Archer; Tags: Archer, Unique Unit; Training time: 13; Moving speed: 0.96; Reload time: 3; Accuracy: 85%; Dispersion radius: 0.33; LOS: 6; Search radius: 6. \nAdditional damage: +2 vs Pikeman; Secondary arrows: 4; Secondary arrow base attack: 3 pierce + 0 melee."
 
 26453 "Create <b>Elite Mameluke<b> (<cost>) \nSaracen unique camel unit with ranged melee attack. Strong vs. cavalry. Weak vs. archers.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Camel, Archer, Mameluke, Unique Unit; Training time: 23; Moving speed: 1.4; Reload time: 2; Accuracy: 100%; LOS: 5; Search radius: 5. \nAdditional damage: +12 vs cavalries, +1 vs Mameluke."
 
 26454 "Create <b>Elite Huskarl<b> (<cost>) \nGothic unique infantry unit with high pierce armor. Strong vs. archers and buildings. Weak vs. cavalry.<i> Upgrades: attack, armor (Blacksmith); speed (Barracks); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Infantry; Tags: Infantry, Unique Unit; Training time: 16; Moving speed: 1.05; Reload time: 2; LOS: 5; Search radius: 3. \nAdditional damage: +10 vs Archer, +3 vs Eagle Warriors, +2vs Buildings."
 
-26455 "Create <b>Elite Janissary<b> (<cost>) \nTurkish unique hand cannoneer with longer range and no minimum range. Strong vs. infantry. Weak vs. archers.<i> Upgrades: armor (Blacksmith); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Hand cannon; Tags: Archer, Gunpowder units, Unique Unit; Training time: 21; Moving speed: 0.96; Reload time: 3.45; Accuracy: 50%; Blast Range : 0.75; LOS: 10; Search radius: 10. \nAdditional damage: +3 vs Rams."
+26455 "Create <b>Elite Janissary<b> (<cost>) \nTurkish unique hand cannoneer with longer range and no minimum range. Strong vs. infantry. Weak vs. archers.<i> Upgrades: armor (Blacksmith); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Hand cannon; Tags: Archer, Gunpowder units, Unique Unit; Training time: 21; Moving speed: 0.96; Reload time: 3.45; Attack delay: 0 frames; Accuracy: 50%; Blast Range : 0.75; LOS: 10; Search radius: 10. \nAdditional damage: +3 vs Rams."
 
 26456 "Create <b>Elite Longbowman<b> (<cost>) \nBritish unique archer with very long range. Strong vs. infantry. Weak vs. cavalry and Skirmishers.<i> Upgrades: attack, range, armor (Blacksmith); attack, accuracy (University); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Archer; Tags: Archer; Unique Unit; Training time: 18; Moving speed: 0.96; Reload time: 2; Accuracy: 80%; Dispersion radius: 0.33; LOS: 8; Search radius: 8. \nAdditional damage: +2 vs Pikeman."
 
@@ -682,7 +682,7 @@
 28373 "Research <b>Dry Dock<b> (<cost>) \nAll ships +15% moving speed. Transport Boat +10 carry capacity."
 28374 "Research <b>Heated Shot<b> (<cost>) \nTowers +125% extra damage vs Ships, Castle, Krepost and Harbor +4 damage vs Ships"
 28375 "Research <b>Elite Cannon Galleon<b> (<cost>) \nUpgrades your Cannon Galleons and lets you build Elite Cannon Galleons, which have +2 range, +10 normal attack, and +100 attack against buildings.\n+2 max range/LOS/search radius; +10 attack, +75 damage vs Buildings."
-28376 "Research <b>Hoardings<b> (<cost>) \nCastle +20% HP"
+28376 "Research <b>Hoardings<b> (<cost>) \nCastle +21% HP"
 28377 "Research <b>Ship wright<b> (<cost>) \nShips wood cost -20%, Build Time -35%"
 28378 "Research <b>Siege Engineers<b> (<cost>) \nSiege weapons (except Rams) +1 max range/LOS/search radius , +20% damage vs Buildings(siege); Petards +200 damage vs Buildings(siege)."
 28379 "Research <b>Obsidian Arrows<b> (<cost>) \nArcher-Line +6 damage vs Buildings, +6 extra vs Defensive Building."
@@ -832,12 +832,12 @@
 
 120181 "Infantry and Cavalry civilization \n\n• Militia-line upgrades free \n• Town Centers stone cost -50% \n• Can build Krepost \n\n<b>Unique Unit:<b> \nKonnik (Cavalry which becomes unmount infantry when dead) \n\n<b>Unique Techs: <b>\n• Stirrups (Light Cavalry-Line and Konnik -25% reload time) \n• Bagains (Militia-Line +3 armor) \n\n<b>Team bonus: <b>\nBlacksmiths work rate +50%"
 120182 "Cavalry Archer civilization \n\n• Herdables food +50% \n• Units deal +25% damage when fighting from higher elevation \n• Parthian Tactics free \n\n<b>Unique Unit:<b> \nKeshik (Cavalry which can produce gold when attacking) \n\n<b>Unique Techs: <b>\n• Silk Armor (Line Cavalry-Line and Cavalry Archers +1P armor) \n• Timurid Siegecraft (Trebuchet +1 max range) \n\n<b>Team bonus: <b>\nCavalry Archer +2 LOS"
-120183 "Cavalry civilization \n\n• Additional Town Center can be built in the Feudal Age \n• Siege Workshop and Battering Ram available in the Feudal Age\n• Cavalry +10% moving speed starting in Feudal Age \n\n<b>Unique Unit:<b> \nKipchak (Fast reload Cavalry Ancher) \n\n<b>Unique Techs: <b>\n• Steppe Husbandry (Ligh Cavalry-Line and Cavalry Archers training rate +80%) \n• Cuman Mercenaries (team members can create 10 free Elite Kipchaks in the Castle) \n\n<b>Team bonus: <b>\nPalisade Walls +50% HP"
+120183 "Cavalry civilization \n\n• Additional Town Center can be built in the Feudal Age \n• Siege Workshop and Battering Ram available in the Feudal Age\n• Cavalry +10% moving speed starting in Feudal Age \n\n<b>Unique Unit:<b> \nKipchak (Cavalry Ancher with multiple arrows) \n\n<b>Unique Techs: <b>\n• Steppe Husbandry (Ligh Cavalry-Line and Cavalry Archers training rate +80%) \n• Cuman Mercenaries (team members can create 10 free Elite Kipchaks in the Castle) \n\n<b>Team bonus: <b>\nPalisade Walls +50% HP"
 120184 "Cavalry and Monk civilization \n\n• Start with +150 food \n• Spearman-Line and Skirmisher-Line move speed +10%\n• Each garrisoned relic gives +1 attack to cavalry units (maximum +5) \n\n<b>Unique Unit : <b>\nLeitis (Cavalry which ignores armor when attacking) \n\n<b>Unique Techs: <b>\n• Hill Forts (Town Center +3 max range) \n• Tower Shields (Pikeman-Line and Skirmisher-Line +1P armor) \n\n<b>Team bonus: <b>\nMonasteries work rate +20%"
 
 8303 "Upgrade to Elite Konnik. (+20 HP, +2 attack, +1P armor)"
 8304 "Upgrade to Elite Keshik. (+30 HP, +2 attack, +1P armor, -3 training time )"
-8305 "Upgrade to Elite Kipchak. (+5 HP, +1 attack)"
+8305 "Upgrade to Elite Kipchak. (+5 HP, +1 attack, +2 secondary arrows)"
 8306 "Upgrade to Elite Leitis. (+30 HP, +2 attack, +1 armor, -3 training time )"
 
 8307 "Research Stirrups (Scout-Line units and Konnik -25% reload time)"
@@ -851,7 +851,7 @@
 
 8402 "Upgrade to Elite Steppe Lancer. (+20 HP, +1 attack, -4 training time )"
 
-8403 "Research Supplies (Militia-Line units food cost -15%)"
+8403 "Research Supplies (Militia-Line units food cost -15)"
 
 
 26288 "Create <b>Konnik<b> (<cost>) \nBulgarian unique cavalry unit that fights on as infantry when felled. Strong vs. infantry and archers. Weak vs. Camel Riders and Monks.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed, to Elite Konnik 1000F, 750G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Infantry; Tags: Infantry; Moving speed: 0.9, Reload time: 2, LOS: 5, Search radius: 4; Additional damage: +4vs Buildings."
@@ -862,9 +862,9 @@
 
 26314 "Create <b>Elite Keshik<b> (<cost>) \nTatar unique cavalry unit that generates gold when fighting other units.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry, Unique Unit; Training time: 20; Moving speed: 1.4; Reload time: 1.9; LOS: 5; Search radius: 4."
 
-26315 "Create <b>Kipchak<b> (<cost>) \nCuman unique cavalry archer with rapid-fire attack. Strong vs. infantry. Weak vs. Skirmishers.<i> Upgrades: attack, range, armor (Blacksmith); speed, hit points (Stable); accuracy, armor (Archery Range); attack, accuracy (University); creation speed, to Elite Kipchak 1100F, 1000W (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry Archer; Tags: Cavalry, Archer, Cavalry Archer, Unique Unit; Training time: 20; Moving speed: 1.4; Reload time: 1.8; Accuracy: 90%; Dispersion radius: 0.33; LOS: 6; Search radius: 5. \nAdditional damage: +1 vs Pikeman."
+26315 "Create <b>Kipchak<b> (<cost>) \nCuman unique cavalry archer with rapid-fire attack. Strong vs. infantry. Weak vs. Skirmishers.<i> Upgrades: attack, range, armor (Blacksmith); speed, hit points (Stable); accuracy, armor (Archery Range); attack, accuracy (University); creation speed, to Elite Kipchak 1100F, 1000W (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry Archer; Tags: Cavalry, Archer, Cavalry Archer, Unique Unit; Training time: 20; Moving speed: 1.4; Reload time: 1.8; Attack delay: 0 frames; Accuracy: 90%; Dispersion radius: 0.33; LOS: 6; Search radius: 5. \nAdditional damage: +1 vs Pikeman; Secondary arrows: 1; Seconary arrows base attack: 3 pierce + 0 melee."
 
-26327 "Create <b>Elite Kipchak<b> (<cost>) \nCuman unique cavalry archer with rapid-fire attack. Strong vs. infantry. Weak vs. Skirmishers.<i> Upgrades: attack, range, armor (Blacksmith); speed, hit points (Stable); accuracy, armor (Archery Range); attack, accuracy (University); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry Archer; Tags: Cavalry, Archer, Cavalry Archer, Unique Unit; Training time: 20; Moving speed: 1.4; Reload time: 1.8; Accuracy: 90%; Dispersion radius: 0.33; LOS: 6; Search radius: 5. \nAdditional damage: +1 vs Pikeman."
+26327 "Create <b>Elite Kipchak<b> (<cost>) \nCuman unique cavalry archer with rapid-fire attack. Strong vs. infantry. Weak vs. Skirmishers.<i> Upgrades: attack, range, armor (Blacksmith); speed, hit points (Stable); accuracy, armor (Archery Range); attack, accuracy (University); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry Archer; Tags: Cavalry, Archer, Cavalry Archer, Unique Unit; Training time: 20; Moving speed: 1.4; Reload time: 1.8; Attack delay: 0 frames; Accuracy: 90%; Dispersion radius: 0.33; LOS: 6; Search radius: 5. \nAdditional damage: +1 vs Pikeman; Secondary arrows: 3; Seconary arrows base attack: 3 pierce + 0 melee."
 
 26328 "Create <b>Leitis<b> (<cost>) \nLithuanian unique cavalry unit with attack that ignores armor. Strong vs. armored units.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed, to Elite Leitis 750F, 750G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry, Unique Unit; Training time: 23; Moving speed: 1.4; Reload time: 1.9; LOS: 5; Search radius: 4."
 
@@ -886,7 +886,7 @@
 
 28303 "Upgrade to <b>Elite Konnik<b> (<cost>) \nUpgrades your Konnik and lets you create Elite Konnik, which are stronger.\n+20 HP, +2 attack, +1P armor\nUnmounted infantry +5 HP, +1 attack, +1P armor."
 28304 "Upgrade to <b>Elite Keshik<b> (<cost>) \nUpgrades your Keshik and lets you create Elite Keshik, which are stronger. \n+30 HP, +2 attack, +1P armor, -3 training time ."
-28305 "Upgrade to <b>Elite Kipchak<b> (<cost>) \nUpgrades your Kipchak and lets you create Elite Kipchak, which are stronger. \n+5 HP, +1 attack."
+28305 "Upgrade to <b>Elite Kipchak<b> (<cost>) \nUpgrades your Kipchak and lets you create Elite Kipchak, which are stronger. \n+5 HP, +1 attack, +2 secondary arrows."
 28306 "Upgrade to <b>Elite Leitis<b> (<cost>) \nUpgrades your Leitis and lets you create Elite Leitis, which are stronger. \n+30 HP, +2 attack, +1 armor, -3 training time ."
 
 28307 "Research <b>Stirrups<b> (<cost>) \nScout-Line units and Konnik -25% reload time."
@@ -900,4 +900,4 @@
 
 28402 "Upgrade to <b>Elite Steppe Lancer<b> (<cost>) \nUpgrades your Steppe Lancer and lets you create Elite Steppe Lancer, which are stronger. \n+20 HP, +1 attack, -4 training time ."
 
-28403 "Research <b>Supplies<b> (<cost>) \nMilitia-Line units wood cost -15%."
+28403 "Research <b>Supplies<b> (<cost>) \nMilitia-Line units wood cost -15."
