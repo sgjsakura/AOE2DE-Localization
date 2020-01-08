@@ -882,7 +882,7 @@
 
 26039 "Create <b>Mounted Samurai<b> (<cost>) \nCavalry with fast attack. Strong vs. unique units. <i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry, Unique Unit; Training time: 30; Moving speed: 1.35; Reload time: 1.75; LOS: 4; Search radius: 4. \nAdditional damage: +12 vs Unique Unit."
 
-26040 "Create <b>Xolotl Warrior<b> (<cost>) \nMesoamerican cavalry unit. Strong vs. infantry and siege. Weak vs. Pikemen and Camel Riders. <i> Upgrades: attack (Blacksmith); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry; Training time: 30; Moving speed: 1.35; Reload time: 1.8; LOS: 4; Search radius: 4. \nAdditional damage: +12 vs Unique Unit."
+26040 "Create <b>Xolotl Warrior<b> (<cost>) \nMesoamerican cavalry unit. Strong vs. infantry and siege. Weak vs. Pikemen and Camel Riders. <i> Upgrades: attack (Blacksmith); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry; Training time: 30; Moving speed: 1.35; Reload time: 1.8; LOS: 4; Search radius: 4."
 
 28303 "Upgrade to <b>Elite Konnik<b> (<cost>) \nUpgrades your Konnik and lets you create Elite Konnik, which are stronger.\n+20 HP, +2 attack, +1P armor\nUnmounted infantry +5 HP, +1 attack, +1P armor."
 28304 "Upgrade to <b>Elite Keshik<b> (<cost>) \nUpgrades your Keshik and lets you create Elite Keshik, which are stronger. \n+30 HP, +2 attack, +1P armor, -3 training time ."
