@@ -900,4 +900,4 @@
 
 28402 "Upgrade to <b>Elite Steppe Lancer<b> (<cost>) (time: 55) \nUpgrades your Steppe Lancer and lets you create Elite Steppe Lancer, which are stronger. \n+20 HP, +1 attack, -4 training time ."
 
-28403 "Research <b>Supplies<b> (<cost>) (time: 35) \nMilitia-Line units wood cost -15."
+28403 "Research <b>Supplies<b> (<cost>) (time: 35) \nMilitia-Line units food cost -15."
