@@ -21,7 +21,7 @@
 8037 "Research Cannon Galleon (Requires Chamistry)"
 8039 "Research Husbandry (Scout class, Cavalry class, Cavalry Ancher class, Special cavalry class units and Missionaries +10% moving speed)"
 8045 "Research Faith (+3 conversion resistance level +3, +2 min/+4 max conversion time)"
-8047 "Research Chemistry (Ancher class, Cavalry Ancher class, Gallery-Line, Scorpion-Line, Mangonel-Line, Trebuchet, Ballista Elephant, Cavalier, Longboat (primary arrow), Town Center (all arrows), Harbor (all arrows), Castle and Krepost (all arrows), Tower class (all arrows) +1 attack)"
+8047 "Research Chemistry (Ancher class, Cavalry Ancher class, Gallery-Line, Scorpion-Line, Mangonel-Line, Trebuchet, Ballista Elephant, Cavalier, Longboat (primary arrow), Town Center (all arrows), Harbor (primary arrow), Castle and Krepost (all arrows), Tower class (all arrows) +1 attack)"
 8050 "Research Masonry (Building and Tower class units +10% HP, +1/1P armor, +3 Siege armor)"
 8051 "Research Architecture (Building and Tower class units +10% HP, +1/1P armor, +3 Siege armor)"
 8054 "Research Treadmill Crane (Villagers building rate +20%)"
