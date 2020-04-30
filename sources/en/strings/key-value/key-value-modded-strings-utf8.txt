@@ -144,7 +144,7 @@
 8371 "Research Yasama (Watch Tower-Line arrows/max arrows +2)"
 8372 "Research Careening (All ships +1P armor; Transport ship +5 capacity)"
 8373 "Research Dry Dock (All Ships +15% moving speed; Transport ship +10 capacity)"
-8374 "Research Heated Shot (Watch tower-Line (primary arrow) +125% extra damage vs Ships and Fishing Ships; Castle, Krepost, Harbor +4 damage vs Ships and Fishing Ships)"
+8374 "Research Heated Shot (Watch tower-Line (primary arrow) +125% extra damage vs Ships and Fishing Ships; Castle, Krepost, Harbor (primary arrow) +4 damage vs Ships and Fishing Ships)"
 8375 "Research Elite Cannon Galleon (+2 max range/LOS/search radius; +10 attack, +75 damage vs Buildings(siege))"
 8376 "Research Hoardings (Castle +21% HP)"
 8377 "Research Ship wright (All ships -20% wood cost, -35% training time)"
@@ -372,7 +372,7 @@
 
 26309 "Build <b>Galleon<b> (<cost>) \nAll-purpose war Ship with ranged attack. Weak vs. Fire Ships.<i> Upgrades: armor, cost, speed (Dock); attack, range (Blacksmith); attack, accuracy (University); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: War ship; Tags: Ship; Training time: 36; Moving speed: 1.43; Reload time: 3; Accuracy: 100%; Rotation time: 0.05; LOS: 9; Search radius: 9. \nAdditional damage: +11 vs Ships, +4 vs Rams, +8 vs Buildings (siege)."
 
-26311 "Build <b>Town Center<b> (<cost>) \nUsed to train Villagers, deposit resources, advance to the next Age, and research technologies. Units can garrison inside for protection. Archers and Villagers provide additional projectiles. Provides 5 population. Cannot be converted by enemy Monks.<i> Upgrades: line of sight (Town Center); hit points, armor, accuracy (University); attack (Blacksmith).<i> \n<hp> <attack> <armor> <piercearmor> <range> <garrison>.<hp>\nClass: Building; Tags: Building; Build Time: 100; Reload time: 2; Accuracy: 100%; LOS: 8; Search radius: 8. \nSecondary arrow base attack: 5; Secondary arrow additional damage: +5 vs Buildings (siege), +5 vs Ships, +1 vs camels."
+26311 "Build <b>Town Center<b> (<cost>) \nUsed to train Villagers, deposit resources, advance to the next Age, and research technologies. Units can garrison inside for protection. Archers and Villagers provide additional projectiles. Provides 5 population. Cannot be converted by enemy Monks.<i> Upgrades: line of sight (Town Center); hit points, armor, accuracy (University); attack (Blacksmith).<i> \n<hp> <attack> <armor> <piercearmor> <range> <garrison>.<hp>\nClass: Building; Tags: Building; Build Time: 150; Reload time: 2; Accuracy: 100%; LOS: 8; Search radius: 8. \nSecondary arrow base attack: 5; Secondary arrow additional damage: +5 vs Buildings (siege), +5 vs Ships, +1 vs camels."
 
 26326 "Create <b>Scout Cavalry<b> (<cost>) \nFast cavalry for scouting and raiding. Resistant to conversion (+8 conversion resistance level). Strong vs. Monks. Weak vs. Pikemen and Camel Riders.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); speed, to Light Cavalry 150F, 50G (Stable); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Scout cavalry; Tags: Cavalry; Training time: 30; Moving speed: 1.2; Reload time: 2; LOS: 4; Search radius: 4. \nAdditional damage: +6 vs Monk class.\n\nAfter Feudal Age gets: +2 attack, +2 LOS/search radius, +0.35 moving speed"
 
@@ -477,7 +477,7 @@
 
 26660 "Create <b>Petard<b> (<cost>) \nDemolition infantry armed with explosives. Strong vs. buildings. Weak vs. other units. Self-destructs when used.<i> Upgrades: attack (University); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> (melee) <armor> <piercearmor> <range>.<hp>\nClass: petard; Tags: none; Training time: 25; Moving speed: 0.8; Blast radius: 0.5; Reload time: 5; LOS: 4; Search radius: 4. \nAdditional damage: +500 vs Buildings (siege), +100 extra vs Castle , +900 extra vs walls and gates, +60 vs siege weapons."
 
-26661 "Create <b>Hussar<b> (<cost>) \nFast cavalry for scouting and raiding. Resistant to conversion (+8 conversion resistance level). Strong vs. Monks. Weak vs. Pikemen and Camel Riders.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry; Training time: 30; Moving speed: 1.5; Reload time: 2; LOS: 6; Search radius: 6. \nAdditional damage: +12 vs Monk class.\n\nBefore Feudal Age gets: -2 LOS/search radius."
+26661 "Create <b>Hussar<b> (<cost>) \nFast cavalry for scouting and raiding. Resistant to conversion (+8 conversion resistance level). Strong vs. Monks. Weak vs. Pikemen and Camel Riders.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry; Training time: 30; Moving speed: 1.5; Reload time: 1.9; LOS: 6; Search radius: 6. \nAdditional damage: +12 vs Monk class.\n\nBefore Feudal Age gets: -2 LOS/search radius."
 
 26667 "Create <b>Jaguar Warrior<b> (<cost>) \nAztec unique infantry unit. Strong vs. infantry. Weak vs. cavalry and archers.<i> Upgrades: attack, armor (Blacksmith); speed (Barracks); creation speed, to Elite Jaguar Warrior 1000F, 500G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Infantry; Tags: Infantry, Unique Unit; Training time: 20; Moving speed: 1; Reload time: 2; LOS: 3; Search radius: 3. \nAdditional damage: +10 vs Infantry, +2 extra vs Eagle Warriors, +10 extra vs Condottiero, +2 vs Buildings."
 
@@ -678,7 +678,7 @@
 28371 "Research <b>Yasama<b> (<cost>) (time: 40) \nWatch Tower-Line +2 arrows/max arrows."
 28372 "Research <b>Careening<b> (<cost>) (time: 50) \nAll ships +1P armor; Transport Boat +5 carry capacity."
 28373 "Research <b>Dry Dock<b> (<cost>) (time: 60) \nAll ships +15% moving speed. Transport Boat +10 carry capacity."
-28374 "Research <b>Heated Shot<b> (<cost>) (time: 30) \nTowers (primary arrow) +125% extra damage vs Ships and Fishing Ships, Castle, Krepost and Harbor +4 damage vs Ships and Fishing Ships"
+28374 "Research <b>Heated Shot<b> (<cost>) (time: 30) \nTowers (primary arrow) +125% extra damage vs Ships and Fishing Ships, Castle, Krepost and Harbor (primary arrow) +4 damage vs Ships and Fishing Ships"
 28375 "Research <b>Elite Cannon Galleon<b> (<cost>) (time: 30) \nUpgrades your Cannon Galleons and lets you build Elite Cannon Galleons, which have +2 range, +10 normal attack, and +100 attack against buildings.\n+2 max range/LOS/search radius; +10 attack, +75 damage vs Buildings(siege)."
 28376 "Research <b>Hoardings<b> (<cost>) (time: 75) \nCastle +21% HP"
 28377 "Research <b>Ship wright<b> (<cost>) (time: 60) \nShips -20% wood cost, -35% training time"
@@ -818,7 +818,7 @@
 
 28291 "Research <b>Tusk Swords<b> (<cost>) (time: 40) \nBattle Elephants +3 attack."
 28292 "Research <b>Double Crossbows<b> (<cost>) (time: 40) \nBallista Elephant and Scorpion can fire 2 arrows. \nScorpion secondary arrow base attack:6; secondary arrow additional damage: +3 vs Elephant, +1 vs Buildings (siege). \nHeavy Scorpion secondary arrow base attack: 8, secondary arrow additional damage: +4 vs Elephant, +2 vs Buildings (siege), +1 vs Rams. \nBallista Elephant and Elite Ballista Elephant secondary arrow base attack: 3; secondary arrow additional damage: +1 vs Buildings (siege), +3 vs Elephant."
-28293 "Research <b>Thalassocracy<b> (<cost>) (time: 40) \nUpgrades your Docks to Harbors, which fire arrows.\n+200 HP, +2/2P armor, +4 LOS, search radius +4; attack 3; Reload time: 3; Accuracy: 100%; \nAdditional damage: +10 vs Ships; Secondary arrows: 3; Secondary arrow base attack: 0 (causes at least 1 damage); Secondary arrow additonal damage: +1 vs Ships, +1 vs camels."
+28293 "Research <b>Thalassocracy<b> (<cost>) (time: 40) \nUpgrades your Docks to Harbors, which fire arrows.\n+200 HP, +2/2P armor, +4 LOS, search radius +4; attack 3; Reload time: 3; Accuracy: 100%; \nAdditional damage: +14 vs Ships; Secondary arrows: 3; Secondary arrow base attack: 0 (causes at least 1 damage); Secondary arrow additonal damage: +1 vs Ships, +1 vs camels."
 28294 "Research <b>Forced Levy<b> (<cost>) (time: 40) \nMilitia-line gold cost is replaced by additional food cost."
 28295 "Research <b>Howdah<b> (<cost>) (time: 40) \nBattle Elephant +1/1P armor."
 28296 "Research <b>Manipur Cavalry<b> (<cost>) (time: 40) \nCavalry class, Scout class units and Arambai +3 damage vs Buildings, +3 damage vs Buildings(siege)."
