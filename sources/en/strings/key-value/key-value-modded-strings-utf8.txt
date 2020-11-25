@@ -770,7 +770,7 @@
 
 8247 "Upgrade to Elite Ballista Elephant. (+40 HP, +1 attack, +2 damage vs Buildings (siege), +1 vs Buildings, +1 extra vs Defensive Building)"
 8248 "Upgrade to Elite Karambit Warrior. (+10 HP, +1 attack, +1 armor, +1 damage vs Buildings)"
-8289 "Upgrade to Elite Arambai. (+5 HP, +2 attack, +1P armor, +10% accuracy)"
+8289 "Upgrade to Elite Arambai. (+5 HP, +2 attack, +1P armor, +10% accuracy, -0.2 reload time)"
 8290 "Upgrade to Elite Rattan Archer. (+5 HP, +1 attack, +2P armor, +1 max range, +10% accuracy)"
 
 8291 "Research Tusk Swords (Battle Elephants +3 attack)"
@@ -795,7 +795,7 @@
 
 26151 "Create <b>Arambai<b> (<cost>) \nBurmese unique cavalry archer with a powerful but inaccurate dart attack. Strong vs. infantry and cavalry. Weak vs. archers.<i> Upgrades: armor (Blacksmith); speed, hit points (Stable); accuracy (University); creation speed, to Elite Arambai 1100F, 675G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Special cavalry; Tags: Cavalry, Archer, Cavalry Archer, Unique Unit; Training time: 21; Moving speed: 1.3; Reload time: 2.2; Attack delay: 0.6; Projectile speed: 7; Accuracy: 20%; Dispersion radius: 0.5; LOS: 7; Search radius: 7. \nAdditional damage: +2 vs Rams."
 
-26152 "Create <b>Elite Arambai<b> (<cost>) \nBurmese unique cavalry archer with a powerful but inaccurate dart attack. Strong vs. infantry and cavalry. Weak vs. archers.<i> Upgrades: armor (Blacksmith); speed, hit points (Stable); accuracy (University); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Special cavalry; Tags: Cavalry, Archer, Cavalry Archer, Unique Unit; Training time: 21; Moving speed: 1.3; Reload time: 2.2; Attack delay: 0.6; Projectile speed: 7; Accuracy: 30%; Dispersion radius: 0.5; LOS: 7; Search radius: 7. \nAdditional damage: +2 vs Rams."
+26152 "Create <b>Elite Arambai<b> (<cost>) \nBurmese unique cavalry archer with a powerful but inaccurate dart attack. Strong vs. infantry and cavalry. Weak vs. archers.<i> Upgrades: armor (Blacksmith); speed, hit points (Stable); accuracy (University); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Special cavalry; Tags: Cavalry, Archer, Cavalry Archer, Unique Unit; Training time: 21; Moving speed: 1.3; Reload time: 2; Attack delay: 0.6; Projectile speed: 7; Accuracy: 30%; Dispersion radius: 0.5; LOS: 7; Search radius: 7. \nAdditional damage: +2 vs Rams."
 
 26165 "Create <b>Rattan Archer<b> (<cost>) \nVietnamese unique archer with high pierce armor. Strong vs. archers and infantry. Weak vs. cavalry and Skirmishers.<i> Upgrades: attack, range, armor (Blacksmith); accuracy, armor (Archery Range); attack, accuracy (University); creation speed, to Elite Rattan Archer 1000F, 750G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Archer; Tags: Archer, Unique Unit; Training time: 16; Moving speed: 1.1; Reload time: 2; Attack delay: 0.69; Projectile speed: 7; Accuracy: 80%; Dispersion radius: 0.33; LOS: 6; Search radius: 6. \nAdditional damage: +2 vs Pikeman."
 
@@ -811,7 +811,7 @@
 
 28247 "Upgrade to <b>Elite Ballista Elephant<b> (<cost>) (time: 70) \nUpgrades your Ballista Elephants and lets you create Elite Ballista Elephants, which are stronger.\n+40 HP, +1 attack, +2 damage vs Buildings (siege), +1 damage vs Buildings, +1 extra damage vs Defensive Building."
 28248 "Upgrade to <b>Elite Karambit Warrior<b> (<cost>) (time: 40) \nUpgrades your Karambit Warriors and lets you create Elite Karambit Warriors, which are stronger.\n+10 HP, +1 attack, +1 armor, +1 damage vs Buildings."
-28289 "Upgrade to <b>Elite Arambai<b> (<cost>) (time: 65) \nUpgrades your Arambai and lets you create Elite Arambai, which are stronger.\n+5 HP, +2 attack, +1P armor, +10% accuracy."
+28289 "Upgrade to <b>Elite Arambai<b> (<cost>) (time: 65) \nUpgrades your Arambai and lets you create Elite Arambai, which are stronger.\n+5 HP, +2 attack, +1P armor, +10% accuracy, -0.2 reload time."
 28290 "Upgrade to <b>Elite Rattan Archer<b> (<cost>) (time: 45) \nUpgrades your Rattan Archers and lets you create Elite Rattan Archers, which are stronger.\n+5 HP, +1 attack, +2P armor, +1 max range, +10% accuracy."
 28299 "Upgrade to <b>Elite Battle Elephant<b> (<cost>) (time: 100) \nUpgrades your Battle Elephants and lets you create Elite Battle Elephants, which are stronger.\n+50 HP, +2 attack, +1P armor, +1 LOS, +3 extravs Buildings (siege), +3 vs Defensive Building."
 28300 "Upgrade to <b>Imperial Skirmisher<b> (<cost>) (time: 50) \nUpgrades your Elite Skirmishers and lets you create Imperial Skirmishers, which are stronger and better armored.\n+1 attack, +1P armor, +5% accuracy, +1 damage vs Archer, +1 extra vs cavalry archers."
