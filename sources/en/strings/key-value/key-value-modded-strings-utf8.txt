@@ -979,4 +979,4 @@
 
 3914 "Hold down ALT and right-click to garrison inside this building for protection and healing. \nHover your cursor on units' Garrison button to see more detail."
 3934 "Right-click to garrison inside this building for protection and healing. \nHover your cursor on units' Garrison button to see more detail."
-3935 "Right-click to garrison inside this Ram or Siege Tower.  \nHover your cursor on units' Garrison button to see more detail."
+3935 "Right-click to garrison inside this Ram or Siege Tower. \nHover your cursor on units' Garrison button to see more detail."
