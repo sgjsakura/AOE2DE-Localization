@@ -1,6 +1,17 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\sources",
+    "\\sources\\en",
+    "\\sources\\en\\strings",
+    "\\sources\\en\\strings\\key-value",
+    "\\sources\\tw",
+    "\\sources\\tw\\strings",
+    "\\sources\\tw\\strings\\key-value",
+    "\\sources\\zh",
+    "\\sources\\zh\\strings",
+    "\\sources\\zh\\strings\\key-value"
   ],
+  "SelectedNode": "\\sources\\tw\\strings",
   "PreviewInSolutionExplorer": false
 }
