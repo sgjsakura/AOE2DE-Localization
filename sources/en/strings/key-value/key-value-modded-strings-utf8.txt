@@ -948,7 +948,7 @@
 3821 "Click a Fishing Ship to gather food from these fish, or click a villager if the fish are near the shore. \nThe work rate of a Fishman is about 0.43 food/sec, while the work rate of a Fishing Ship is about 0.34 food/sec."
 3822 "Click a villager to gather wood from this tree. \nThe work rate of a Lumberjack is about 0.39 wood/sec."
 3823 "Click a villager to gather food from this forage bush. \nThe work rate of a Forager is about 0.31 food/sec."
-3824 "Click a villager to gather stone from this mine. \n\he work rate of a Stone Miner is about 0.36 stone/sec."
+3824 "Click a villager to gather stone from this mine. \nThe work rate of a Stone Miner is about 0.36 stone/sec."
 3825 "Click a villager to gather gold from this mine. \nThe work rate of a Gold Miner is about 0.38 gold/sec."
 3826 "Click a unit to attack this animal. Villagers can hunt deer, wild boar, javelina, elephants, zebras and ostriches for food. Use several villagers to attack all animals except deer, zebras, and ostriches. \nThe work rate of a Hunter is about 0.41 food/sec."
 3827 "Click a villager to gather food from this Farm. \nThe harvesting rate of farmers is about 0.53 food/sec (0.32 food/sec after taking walking into account)."
