@@ -931,7 +931,8 @@
 
 26544 "Build <b>Donjon<b> (<cost>) \nFortification used to train your unique unit. Unique building of the Sicilians. Units can garrison inside for protection. Archers and Villagers shoot additional projectiles.<i> Upgrades: production speed (Castle); line of sight (Town Center); hit points, armor, accuracy (University); attack, range (Blacksmith).<i> \n<hp> <attack> <armor> <piercearmor> <range> <garrison>\nClass: tower; Tags: building, defensive building; Building time: 90; Reload time: 2; Accuracy: 100%; min range: 1; LOS: 10; Search radius: 10.\nAdditional damage: +2 vs. Pikemen, +7 vs. Ships and Fishing Ships, +1 vs. Camels; Secondary arrows: 0-4; Secondary arrow base attack: 5; secondary arrow additional damage:  +7 vs. Ships and Fishing Ships, +5 vs. Defensive Buildings, +1 vs. Camels.\n\nAfter Castle Age gets: +50% HP, +1/+1P armor, +1 arrow, +3 max arrows.\n\nAfter Imperial Age gets: +50% HP, +1/+1P armor, +1 arrow, +4 max arrows."
 
-120187 "Cavalry civilization \n\n• Villagers regenerate 5/10/15/20 HPs per minute at Dark/Feudal/Castle/Imperial Age \n• Folwark replaces Mill \n• Stone Miners generate 0.5 gold per stone\n\n<b>Unique Units:<b> \nObuch (infantry destroys armor), Winged Hussar (powerful light cavalry)\n\n<b>Unique Techs:<b> \n• Szlachta Privileges (Knight-line -60% gold cost) \n• Lechitic Legacy (Light Cavalry deals 5 damage in 0.5 blast range)\n\n<b>Team Bonus:<b> \nScout-Line units +1 damage vs. Archers"
+120187 "Cavalry civilization \n\n• Villagers regenerate 5/10/15/20 HPs per minute at Dark/Feudal/Castle/Imperial Age \n• Folwark replaces Mill \n• Stone Miners generate 0.5 gold per stone\n\n<b>Unique Units:<b> \nObuch (infantry destroys armor), Winged Hussar (powerful light cavalry)\n\n<b>Unique Techs:<b> \n• Szlachta Privileges (Knight-line -60% gold cost) \n• Lechitic Legacy (Light Cavalry deals 33% damage in 0.5 blast range)\n\n<b>Team Bonus:<b> \nScout-Line units +1 damage vs. Archers"
+
 120188 "Gunpowder and Monk civilization \n\n• Blacksmiths, Monasteries and Universities -100 wood cost \n• Chemistry and Hand Cannoneer available in Castle Age \n• Spearman-line +25% bonus damage \n• Fervor and Sanctity affect Villagers \n• Mining Camp technologies free \n\n<b>Unique Units:<b> \nHussite Wagon (siege weapon protects rear units), Houfnice (powerful bombard cannon)\n\n<b>Unique Techs:<b> \n• Wagenburg Tactics (Gunpowder units move 15% faster) \n• Hussite Reforms (Monks and Monastery upgrades have their gold cost replaced by food)\n\n<b>Team Bonus:<b> \nMarkets +80% work rate"
 
 26558 "Create <b>Obuch<b> (<cost>) \nPolish unique infantry unit which can damage the armor of units it is fighting. Strong vs. buildings and infantry. Weak vs. archers at long range.<i> Upgrades: attack, armor (Blacksmith); speed (Barracks); creation speed, to Elite Obuch 800F, 600G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range> \nClass: infantry; Tags: infantry, unique unit; Training time: 9; Moving speed: 0.9; Reload time: 2; LOS: 3; Search radius: 3. \nAdditional damages: +2 vs. Eagle Warriors, +4 vs. Buildings. \n\nThis unit deals -1/-1P armor to target after each attack (not appliable for buildings). the effect is stackable and the minimum overall armors (including tech bonus) can reach 0/0P. This effect will be dismissed after the its HP restored to full."
@@ -954,7 +955,7 @@
 8346 "Upgrade to Elite Obuch (+15 HP, +2 attack, +1 damage vs. Eagle Warriors, +2 damage vs. Buildings)"
 8347 "Upgrade to Elite Hussite Wagon (+50 HP, +3 attack, +3P armor, +5% accuracy, +1 damage vs. Buildings(siege))"
 8348 "Research Szlachta Privileges (Knight-line units -60% gold cost)"
-8349 "Research Lechitic Legacy (Scout-line units deals 5 damage in 0.5 blast radius)"
+8349 "Research Lechitic Legacy (Scout-line units deals 33% damage in 0.5 blast radius)"
 8350 "Research Wagenburg Tactics (Gunpowder units +15% moving speed)"
 8351 "Research Hussite Reforms (Monks training and Monastery upgrades have their gold cost replaced by food)"
 8352 "Upgrade to Winged Hussar (+20 HP, +2 attack, +1 armor, -0.1 reload time, +4 damage vs. Monks, +4 damage vs. Gunpowder units)"
@@ -963,7 +964,7 @@
 28346 "Upgrade to <b>Elite Obuch<b> (<cost>) (time: 45) \nUpgrades your Obuch and lets you create Elite Obuch, which are stronger.\n+15 HP, +2 attack, +1 damage vs. Eagle Warriors, +2 damage vs. Buildings."
 28347 "Upgrade to <b>Elite Hussite Wagon<b> (<cost>) (time: 45) \nUpgrades your Hussite Wagons and lets you create Elite Hussite Wagons, which are stronger.\n+50 HP, +3 attack, +3P armor, +5% accuracy, +1 damage vs. Buildings(siege)."
 28348 "Research <b>Szlachta Privileges<b> (<cost>) (time: 45) \nKnight-line units -60% gold cost."
-28349 "Research <b>Lechitic Legacy<b> (<cost>) (time: 60) \nScout-line units deals 5 damage in 0.5 blast radius."
+28349 "Research <b>Lechitic Legacy<b> (<cost>) (time: 60) \nScout-line units deals 33% damage in 0.5 blast radius."
 28350 "Research <b>Wagenburg Tactics<b> (<cost>) (time: 45) \nGunpowder units +15% moving speed."
 28351 "Research <b>Hussite Reforms<b> (<cost>) (time: 45) \nMonks training and Monastery upgrades have their gold cost replaced by food."
 28352 "Upgrade to <b>Winged Hussar<b> (<cost>) (time: 60) \nUpgrades your Light Cavalry and lets you create Winged Hussars, which are stronger.\n+20 HP, +2 attack, +1 armor, -0.1 reload time, +4 damage vs. Monks, +4 damage vs. Gunpowder units."
