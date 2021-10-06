@@ -40,7 +40,7 @@
 8085 "Research Hand Cannoneer (Requires Chemistry)"
 8090 "Research Tracking (Infantry class units +2 LOS)"
 8093 "Research Ballistics (missiles more accurate for moving target)"
-8096 "Upgrade to Capped Ram. (+25 HP, +1 attack, +10P armor, +1 garrison capacity, +5 blast range, +10 damage vs Buildings (siege) +25, +1 vs Siege weapon, Ram armor)"
+8096 "Upgrade to Capped Ram. (+25 HP, +1 attack, +10P armor, +1 garrison capacity, +5 blast range, +10 damage vs Buildings (siege), +25 damage vs Siege weapons, +1 Ram armor)"
 8098 "Upgrade to Elite Skirmisher. (+5 HP, +1 attack, +1P armor, +1 max range/LOS/search radius, +1 damage vs Archer, +2 extra vs cavalry archers)"
 8100 "Upgrade to Crossbowman. (+5 HP, +1 attack, +1 max range/LOS/search radius, -8 training time , +5% accuracy)"
 8101 "Advance to Feudal Age."
@@ -57,7 +57,7 @@
 8186 "Upgrade to Guard Tower. (+480 HP, +2 attack, +1/1P armor, +2 damage vs Ships and Fishing Ships, secondary arrows +2 base attak, +2 damage vs Ships and Fishing Ships)"
 8189 "Research Double-Bit Axe (Lumbering Speed +20%)"
 8190 "Research Bow Saw (Lumbering Speed +20%)"
-8204 "Upgrade to Long Swordsman. (+15 HP, +3 attack, +4 damage vs Eagle Warriors, +1 damage vs Buildings)"
+8204 "Upgrade to Long Swordsman. (+15 HP, +3 attack, +1 armor, +4 damage vs Eagle Warriors, +1 damage vs Buildings)"
 8207 "Upgrade to Cavalier. (+20 HP, +2 attack)"
 8208 "Research Padded Archer Armor (Ancher class, Cavalry Ancher class, Hand Cannon class, Special cavalry class units +1/1P armor)"
 8209 "Research Leather Archer Armor (Ancher class, Cavalry Ancher class, Hand Cannon class, Special cavalry class units +1/1P armor)"
@@ -94,11 +94,11 @@
 8256 "Research Kasbah (Team's castle work rate 25%)"
 8257 "Research Maghrabi Camels (Camel has regeneration of 15 HP/min)"
 8258 "Research Arson (Infantry class units +2 damage vs Buildings)"
-8259 "Upgrade to Paladin. (+40 HP, +2 attack, +1P armor, +1 LOS, but Reload time +0.1)"
-8260 "Upgrade to Champion. (+10 HP, +1 attack, +1 armor, search radius +1)"
-8261 "Upgrade to Light Cavalry. (+15 HP, +2 attack, +4 damage vs Monk class, but moving speed -0.05)"
+8259 "Upgrade to Paladin. (+40 HP, +2 attack, +1P armor, +1 LOS, but +0.1 Reload time)"
+8260 "Upgrade to Champion. (+10 HP, +1 attack, +1 search radius)"
+8261 "Upgrade to Light Cavalry. (+15 HP, +2 attack, +4 damage vs Monk class, but -0.05 moving speed)"
 8262 "Upgrade to Onager. (+10 HP, +10 attack, +1P armor, +1 max range/LOS/search radius, +0.25 blast range, +2 projectile amount, +10 damage vs Buildings (siege))"
-8263 "Upgrade to Siege Ram. (+70 HP, +1 attack, +5P armor, +1 garrison capacity, +0.1 moving speed, +5 blast range, +15 damage vs Buildings (siege) +50, +1 vs Siege weapon, Ram armor)"
+8263 "Upgrade to Siege Ram. (+70 HP, +1 attack, +5P armor, +1 garrison capacity, +0.1 moving speed, +5 blast range, +15 damage vs Buildings (siege) +50 damage vs Siege weapon, +1 Ram armor)"
 8264 "Upgrade to Elite Boyar. (+30 HP, +2 attack, +4/1P armor)"
 8265 "Upgrade to Elite Kamayuk. (+20 HP, +1 attack, +1 armor, +1 LOS, +4 damage vs cavalries and camels, +1 extra vs Mamelukes)"
 8266 "Research Andean Sling (Skirmisher, Genitours and Slingers have no min range)"
@@ -213,7 +213,7 @@
 
 26079 "Create <b>Militia<b> (<cost>) \nAll-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range.<i> Upgrades: attack, armor (Blacksmith); cost, speed, to Man-at-Arms 100F, 40G (Barracks); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Infantry; Tags: Infantry; Training time: 21; Moving speed: 0.9; Reload time: 2; LOS: 4; Search radius: 4."
 
-26080 "Create <b>Man-at-Arms<b> (<cost>) \nAll-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range.<i> Upgrades: attack, armor (Blacksmith); cost, speed, to Long Swordsman 200F, 65G (Barracks); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Infantry; Tags: Infantry; Training time: 21; Moving speed: 0.9; Reload time: 2; LOS: 4; Search radius: 4. \nAdditional damage: +2 vs Eagle Warriors; +2 vs Buildings."
+26080 "Create <b>Man-at-Arms<b> (<cost>) \nAll-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range.<i> Upgrades: attack, armor (Blacksmith); cost, speed, to Long Swordsman 150F, 65G (Barracks); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Infantry; Tags: Infantry; Training time: 21; Moving speed: 0.9; Reload time: 2; LOS: 4; Search radius: 4. \nAdditional damage: +2 vs Eagle Warriors; +2 vs Buildings."
 
 26081 "Create <b>Long Swordsman<b> (<cost>) \nAll-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range.<i> Upgrades: attack, armor (Blacksmith); cost, speed, to Two-Handed Swordsman 300F, 100G (Barracks); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Infantry; Tags: Infantry; Training time: 21; Moving speed: 0.9; Reload time: 2; LOS: 4; Search radius: 4. \nAdditional damage: +6 vs Eagle Warriors; +3 vs Buildings."
 
@@ -366,7 +366,7 @@
 
 26205 "Build <b>Fortified Palisade Wall<b> (<cost>) \nWooden wall that is cheap and easy to build. Slows down your enemies and warns you of their approach. Cannot be converted by enemy Monks.<i> Upgrades: line of sight (Town Center); hit points, armor (University).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Walls; Tags: Building, Gates and Walls; Build Time: 6; LOS: 2; Search radius: 2.\n\nAfter Feudal Age gets: +66.7% HP."
 
-26287 "Build <b>Cannon Galleon<b> (<cost>) \nAnti-building siege war Ship with long range, but cannot attack enemies at close range. Strong vs. buildings. Weak vs. other units.<i> Upgrades: armor, cost, speed, to Elite Cannon Galleon 525W, 500G (Dock); more resistant to Monks (Monastery).<i> \n<hp> <attack> (melee) <armor> <piercearmor> <range>.<hp>\nClass: War ship; Tags: Ship, Gunpowder units; Training time: 46; Moving speed: 1.1; Reload time: 10; Projectile speed: 1.95; Accuracy: 50%; Dispersion radius: 0.1; Rotation time: 0.05; Min range: 3; LOS: 15; Search radius: 15. \nAdditional damage: +200 vs Buildings (siege), +15 vs Infantry, +15 vs Archer, +15 vs cavalries, +4 vs Mameluke, +40 vs Siege weapon."
+26287 "Build <b>Cannon Galleon<b> (<cost>) \nAnti-building siege war Ship with long range, but cannot attack enemies at close range. Strong vs. buildings. Weak vs. other units.<i> Upgrades: armor, cost, speed, to Elite Cannon Galleon 525W, 500G (Dock); more resistant to Monks (Monastery).<i> \n<hp> <attack> (melee) <armor> <piercearmor> <range>.<hp>\nClass: War ship; Tags: Ship, Gunpowder units; Training time: 46; Moving speed: 1.1; Reload time: 10; Projectile speed: 3; Accuracy: 50%; Dispersion radius: 0.1; Rotation time: 0.05; Min range: 3; LOS: 15; Search radius: 15. \nAdditional damage: +200 vs Buildings (siege), +15 vs Infantry, +15 vs Archer, +15 vs cavalries, +4 vs Mameluke, +40 vs Siege weapon."
 
 26289 "Build <b>Capped Ram<b> (<cost>) \nAnti-building siege weapon. Resistant to most ranged attacks. Garrisoned infantry increase speed and attack.<i> Upgrades: attack (University); to Siege Ram 1000F (Siege Workshop); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range> <garrison>.<hp>\nClass: Siege weapon; Tags: Siege weapon, Ram; Training time: 36; Moving speed: 0.5; Reload time: 5; Blast Range: 1.5; LOS: 3; Search radius: 3. \nAdditional damage: +150 vs Buildings (siege), +50 vs Siege weapon; Additional Armor: -3 basic armor, +1 Ram armor. \n\nVillagers, infantry class and archer class units can be garrisoned into rams. Each garrisoned infantry units provides +10 damage vs. Buildings (siege), and +0.05 moving speed. Garrisoned units will be ejected if this unit is converted."
 
@@ -469,7 +469,7 @@
 
 26504 "Build <b>Outpost<b> (<cost>) \nWatch tower with great line-of-sight to discover nearby enemy activity. Does not attack and cannot garrison units inside.<i> Upgrades: line of sight (Town Center); hit points, armor (University); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>\nClass: Building; Tags: Building; Build Time: 15; LOS: 6; Search radius: 3."
 
-26573 "Build <b>Elite Cannon Galleon<b> (<cost>) \nAnti-building siege war Ship with long range, but cannot attack enemies at close range. Strong vs. buildings. Weak vs. other units.<i> Upgrades: armor, speed, cost (Dock); more resistant to Monks (Monastery).<i> \n<hp> <attack> (melee) <armor> <piercearmor> <range>.<hp>\nClass: War ship; Tags: Ship, Gunpowder units; Training time: 46; Moving speed: 1.1; Reload time: 10; Projectile speed: 1.95; Accuracy: 50%; Dispersion radius: 0.1; Rotation time: 0.05; Min range: 3; LOS: 17; Search radius: 17. \nAdditional damage: +275 vs Buildings (siege), +15 vs Infantry, +15 vs Archer, +15 vs cavalries, +4 vs Mameluke, +40 vs Siege weapon."
+26573 "Build <b>Elite Cannon Galleon<b> (<cost>) \nAnti-building siege war Ship with long range, but cannot attack enemies at close range. Strong vs. buildings. Weak vs. other units.<i> Upgrades: armor, speed, cost (Dock); more resistant to Monks (Monastery).<i> \n<hp> <attack> (melee) <armor> <piercearmor> <range>.<hp>\nClass: War ship; Tags: Ship, Gunpowder units; Training time: 46; Moving speed: 1.1; Reload time: 10; Projectile speed: 3; Accuracy: 50%; Dispersion radius: 0.1; Rotation time: 0.05; Min range: 3; LOS: 17; Search radius: 17. \nAdditional damage: +275 vs Buildings (siege), +15 vs Infantry, +15 vs Archer, +15 vs cavalries, +4 vs Mameluke, +40 vs Siege weapon."
 
 26574 "Create <b>Berserk<b> (<cost>) \nViking unique infantry unit that slowly heals itself. Strong vs. infantry and siege weapons. Weak vs. archers.<i> Upgrades: attack, armor (Blacksmith); speed (Barracks); creation speed, to Elite Berserk 1300F, 550G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Infantry; Tags: Infantry, Unique Unit; Training time: 14; Moving speed: 1.05; Reload time: 2; LOS: 3; Search radius: 3; Regeneration inteval: 3. \nAdditional damage: +2 vs Eagle Warriors; +2 vs Buildings."
 
@@ -572,7 +572,7 @@
 28090 "Research <b>Tracking<b> (<cost>) (time: 0) \nInfantry class units +4 LOS."
 28093 "Research <b>Ballistics<b> (<cost>) (time: 60) \nEnables smart firing for Archers, Town Center, Castle, Tower, and war ships (predict the target location for moving units in order to increase the accuracy)."
 28094 "Research <b>Scorpion<b> (<cost>) (time: 0) \nLets you build Scorpions."
-28096 "Upgrade to <b>Capped Ram<b> (<cost>) (time: 50) \nUpgrades Battering Rams and lets you build Capped Rams, which are stronger and better armored.\n+25 HP, +1 attack, +10P armor, +1 garrison capacity, +5 blast range, +10 damage vs Buildings (siege) +25, +10 vs Siege weapon, +1 Ram armor."
+28096 "Upgrade to <b>Capped Ram<b> (<cost>) (time: 50) \nUpgrades Battering Rams and lets you build Capped Rams, which are stronger and better armored.\n+25 HP, +1 attack, +10P armor, +1 garrison capacity, +5 blast range, +10 damage vs Buildings (siege) +25, +10 damage vs Siege weapons, +1 Ram armor."
 28098 "Upgrade to <b>Elite Skirmisher<b> (<cost>) (time: 50) \nrUpgrades your Skirmishers and lets you create Elite Skirmishers, which are stronger and better armored.\n+5 HP, +1 attack, +1P armor, +1 max range/LOS/search radius, +1 damage vs Archer, +2 extra vs cavalry archers."
 28100 "Upgrade to <b>Crossbowman<b> (<cost>) (time: 35) \nUpgrades your Archers and lets you create Crossbowmen, which are stronger, better armored, and fire farther.\n+5 HP, +1 attack, +1 max range/LOS/search radius, -8 training time , +5% accuracy."
 28101 "Advance to <b>Feudal Age<b> (<cost>; two Dark Age buildings) (time: 130) \nImproves your civilization. Gives you access to different buildings, more powerful military units, and stronger technologies. Before you can advance, you must have any two Dark Age buildings: Lumber Camp, Mining Camp, Mill, Dock, or Barracks.\n\nAfter upgrading you get: Scout Cavalry +2 attack +0.35 moving speed; Scout Cavalry-line +2 LOS/search radius; Eagle Scout +1 LOS/search."
@@ -591,7 +591,7 @@
 28186 "Upgrade to <b>Guard Tower<b> (<cost>) (time: 30) \nUpgrades your Watch Towers and lets you build Guard Towers, which are stronger and have more attack strength.\n+480 HP, +2 attack, +1/1P armor, +2 damage vs Ships and Fishing Ships, secondary arrows +2 base attak, +2 damage vs Ships and Fishing Ships."
 28189 "Research <b>Double-Bit Axe<b> (<cost>) (time: 25) \nVillagers get lumbering efficiency +20%."
 28190 "Research <b>Bow Saw<b> (<cost>) (time: 50) \nVillagers get lumbering efficiency +20%."
-28204 "Upgrade to <b>Long Swordsman<b> (<cost>) (time: 45) \nUpgrades your Men-at-Arms and lets you create Long Swordsmen, which are stronger.\n+15 HP, +3 attack, +4 damage vs Eagle Warriors, +1 damage vs Buildings."
+28204 "Upgrade to <b>Long Swordsman<b> (<cost>) (time: 45) \nUpgrades your Men-at-Arms and lets you create Long Swordsmen, which are stronger.\n+15 HP, +3 attack, +1 armor, +4 damage vs Eagle Warriors, +1 damage vs Buildings."
 28207 "Upgrade to <b>Cavalier<b> (<cost>) (time: 100) \nUpgrades your Knights and lets you create Cavaliers, which are stronger and better armored.\n+20 HP, +2 attack."
 28208 "Research <b>Padded Archer Armor<b> (<cost>) (time: 40) \nAncher class, Cavalry Ancher class, Hand Cannon class, Special cavalry class units +1/1P armor."
 28209 "Research <b>Leather Archer Armor<b> (<cost>) (time: 55) \nAncher class, Cavalry Ancher class, Hand Cannon class, Special cavalry class units +1/1P armor."
@@ -629,7 +629,7 @@
 28257 "Research <b>Maghrabi Camels<b> (<cost>) (time: 40) \nCamels, Camel Archers and Mamelukes have regeneration ability of 15 HP/min."
 28258 "Research <b>Arson<b> (<cost>) (time: 25) \nInfantry class units +2 damage vs Buildings."
 28259 "Upgrade to <b>Paladin<b> (<cost>) (time: 170) \nUpgrades your Cavaliers and lets you create Paladins, which are stronger and better armored.\n+40 HP, +2 attack, +1P armor, +1 LOS, but Reload time +0.1."
-28260 "Upgrade to <b>Champion<b> (<cost>) (time: 100) \nUpgrades your Two-Handed Swordsmen and lets you create Champions, which are stronger and equipped with armor.\n+10 HP, +1 attack, +1 armor, +1 search radius."
+28260 "Upgrade to <b>Champion<b> (<cost>) (time: 100) \nUpgrades your Two-Handed Swordsmen and lets you create Champions, which are stronger and equipped with armor.\n+10 HP, +1 attack, +1 search radius."
 28261 "Upgrade to <b>Light Cavalry<b> (<cost>) (time: 45) \nUpgrades your Scout Cavalry and lets you create Light Cavalry, which are stronger.\n+15 HP, +2 attack, +4 damage vs Monk class, but -0.05 moving speed."
 28262 "Upgrade to <b>Onager<b> (<cost>) (time: 75) \nUpgrades your Mangonels and lets you build Onagers, which are stronger and better armored.\n+10 HP, +10 attack, +1P armor, +1 max range/LOS/search radius, +0.25 blast range, +2 projectile amount, +10 vs Buildings (siege)."
 28263 "Upgrade to <b>Siege Ram<b> (<cost>) (time: 75) \nUpgrades your Capped Rams and lets you build Siege Rams, which are stronger and better armored.\n+70 HP, +1 attack, +5P armor, +1 garrison capacity, +0.1 moving speed, +5 blast range, +50 damage vs Buildings (siege), +15 vs Siege weapon, +1 Ram armor."
@@ -766,7 +766,7 @@
 120177 "Siege and Elephant civilization \n\n• No buildings required to advance to the next age or to unlock other buildings \n• Farmers don't require Mills/Town Centers to drop off food, but -5% work rate \n• Battle Elephants +10% moving speed\n• Villagers can garrison in Houses \n\n<b>Unique Unit:<b> \nBallista Elephant (Scorpion on elephant) \n\n<b>Unique Techs: <b>\n• Tusk Swords (Battle Elephant +3 attack) \n• Double Crossbow (Ballista Elephant and Scorpion have secondary arrow) \n\n<b>Team bonus: <b>\nScorpion +1 max range"
 120178 "Naval civilization \n\n• Advancing to the next age -40% time \n• Fish Traps -33% cost\n• Fish Traps x3 food amount\n• Battle Elephants -30%/-40% cost at Castle/Imperial Age \n\n<b>Unique Unit:<b> \nKarambit Warrior (Infantry uses only half of population) \n\n<b>Unique Techs: <b>\n• Thalassocracy (upgrades Docks to Harbors, which fire arrows) \n• Forced Levy (Militia-Line units gold cost converted to food) \n\n<b>Team bonus: <b>\nDocks +100 LOS%"
 120179 "Monk and Elephant civilization \n\n• Lumber Camp upgrades free \n• Infantries +1 attack per age starting in Feudal Age \n• Monastery techs cost -50% \n\n<b>Unique Unit : <b>\nArambai (High attack, low accuray cavalry archer) \n\n<b>Unique Techs: <b>\n• Howdah (Battle Elephants +1/2P armor) \n• Manipur Cavalry (Cavalry class, Scout class units and Arambai +6 damage vs Buildings) \n\n<b>Team bonus: <b>\nRelics visible on the map at the start of the game"
-120180 "Archer civilization \n\n• Enemy positions are revealed at the start of the game \n• Archery Range units +20% HP \n• Conscription free \n• Economic upgrading techs (All techs in Mills, Lamber camps, and Mining camps; Hand cart and Wheel barrow; Gillnets) cost no wood\n\n<b>Unique Units:<b> \nRattan Archer (Ancher better combats with archers) \n\n<b>Unique Techs: <b>\n• Chatras (Battle Elephants +50 HP) \n• Paper Money (Each team member receives 500 gold) \n\n<b>Team bonus: <b>\nImperial Skirmisher upgrade available in the Imperial Age"
+120180 "Archer civilization \n\n• Enemy positions are revealed at the start of the game \n• Archery Range units +20% HP \n• Conscription free \n• Economic upgrading techs (All techs in Mills, Lamber camps, and Mining camps; Hand cart and Wheel barrow; Gillnets) cost no wood\n\n<b>Unique Units:<b> \nRattan Archer (Ancher better combats with archers) \n\n<b>Unique Techs: <b>\n• Chatras (Battle Elephants +100 HP) \n• Paper Money (Each team member receives 500 gold) \n\n<b>Team bonus: <b>\nImperial Skirmisher upgrade available in the Imperial Age"
 
 8247 "Upgrade to Elite Ballista Elephant. (+40 HP, +1 attack, +2 damage vs Buildings (siege), +1 vs Buildings, +1 extra vs Defensive Building)"
 8248 "Upgrade to Elite Karambit Warrior. (+10 HP, +1 attack, +1 armor, +1 damage vs Buildings)"
@@ -779,7 +779,7 @@
 8294 "Research Forced Levy (Militia-Line cost extra food but no gold)"
 8295 "Research Howdah (Battle Elephants +1/2P armor)"
 8296 "Research Manipur Cavalry (Cavalry class, Scout class units and Arambai +6 damage vs Buildings)"
-8297 "Research Chatras (Battle Elephants +50 HP)"
+8297 "Research Chatras (Battle Elephants +100 HP)"
 8298 "Research Paper Money (Each team member receives +500 gold)"
 
 8299 "Upgrade to Elite Battle Elephant. (+50 HP, +2 attack, +1P armor, +1 LOS, +3 extravs Buildings (siege), +3 vs Defensive Building)"
@@ -822,7 +822,7 @@
 28294 "Research <b>Forced Levy<b> (<cost>) (time: 40) \nMilitia-line gold cost is replaced by additional food cost."
 28295 "Research <b>Howdah<b> (<cost>) (time: 40) \nBattle Elephant +1/2P armor."
 28296 "Research <b>Manipur Cavalry<b> (<cost>) (time: 40) \nCavalry class, Scout class units and Arambai +6 damage vs Buildings."
-28297 "Research <b>Chatras<b> (<cost>) (time: 40) \nBattle Elephant +50 HP."
+28297 "Research <b>Chatras<b> (<cost>) (time: 40) \nBattle Elephant +100 HP."
 28298 "Research <b>Paper Money<b> (<cost>) (time: 60) \nYou and all your allies receive +500 Gold."
 
 
@@ -869,7 +869,7 @@
 
 26329 "Create <b>Elite Leitis<b> (<cost>) \nLithuanian unique cavalry unit with attack that ignores armor. Strong vs. armored units.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry, Unique Unit; Training time: 18; Moving speed: 1.4; Reload time: 1.9; LOS: 5; Search radius: 4."
 
-26349 "Build <b>Krepost<b> (<cost>) \nFortification used to train your unique unit. Unique building of the Bulgarians. Units can garrison inside for protection. Archers and Villagers shoot additional projectiles. Cannot be converted by enemy Monks.<i> Upgrades: production speed (Castle); line of sight (Town Center); hit points, armor, accuracy (University); attack, range (Blacksmith).<i> \n<hp> <attack> <armor> <piercearmor> <range> <garrison>.<hp>\nClass: Building; Tags: Building, Castle; Build Time: 150; Reload time: 2; Accuracy: 100%; Min range: 1; LOS: 10; Search radius: 9. \nAdditional damage: +2 vs Pikeman; Secondary arrows amount: 4-20; Secondary arrow base attack: 11; Secondary arrow additonal damage: +11 vs Ships and Fishing Ships, +11 vs Defensive Building, +1 vs camels; Additional Armor: +8 Siege armor."
+26349 "Build <b>Krepost<b> (<cost>) \nFortification used to train your unique unit. Unique building of the Bulgarians. Units can garrison inside for protection. Archers and Villagers shoot additional projectiles. Cannot be converted by enemy Monks.<i> Upgrades: production speed (Castle); line of sight (Town Center); hit points, armor, accuracy (University); attack, range (Blacksmith).<i> \n<hp> <attack> <armor> <piercearmor> <range> <garrison>.<hp>\nClass: Building; Tags: Building, Castle; Build Time: 150; Reload time: 2; Accuracy: 100%; Min range: 1; LOS: 10; Search radius: 9. \nAdditional damage: +2 vs Pikeman; Secondary arrows amount: 4-20; Secondary arrow base attack: 10; Secondary arrow additonal damage: +10 vs Ships and Fishing Ships, +10 vs Defensive Building, +1 vs camels; Additional Armor: +8 Siege armor."
 
 26009 "Create <b>Steppe Lancer<b> (<cost>) \nLight cavalry unit with increased attack range. Strong in groups. Weak vs. Camel Riders and archers.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed, to Elite Steppe Lancer 900F, 550G (Stable); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Cavalry; Tags: Cavalry; Training time: 24; Moving speed: 1.45; Reload time: 2.0; LOS: 5; Search radius: 4."
 
@@ -901,20 +901,20 @@
 
 28403 "Research <b>Supplies<b> (<cost>) (time: 35) \nMilitia-Line units -15 food cost."
 
-120185 "Cavalry civilization \n\n• Economic upgrades (Techs in Mills, Lumbers, Mining Camps; Wheelbarrow and Hand Carts; Gillnets; Caravan and Guilds) available one age earlier, and -50% food cost \n• Stable technologies -50% cost \n• Cavalier upgrade available in Castle Age \n• Gunpowder units +25% base and extra attack \n\n<b>Unique Units:<b> \n• Coustillier (cavalry with charged attack)\n• Flemish Militia (infantry batter combats with cavalries)\n\n<b>Unique Techs:<b> \n• Burgundian Vineyards (Convert half of food into gold with 2:1 ratio; Farmers generate 1 gold per 50 sec in addition to food) \n• Flemish Revolution (Upgrades all existing Villagers to Flemish Militia; create Flemish Militia at Town Centers)\n\n<b>Team Bonus:<b> \nRelics generate 30 food per minute besides gold"
+120185 "Cavalry civilization \n\n• Economic upgrades (Techs in Mills, Lumbers, Mining Camps; Wheelbarrow and Hand Carts; Gillnets; Caravan and Guilds) available one age earlier, and -50% food cost \n• Stable technologies -50% cost \n• Cavalier upgrade available in Castle Age \n• Gunpowder units +25% base and extra attack \n\n<b>Unique Units:<b> \n• Coustillier (cavalry with charged attack)\n• Flemish Militia (infantry batter combats with cavalries)\n\n<b>Unique Techs:<b> \n• Burgundian Vineyards (Farmers generate 1 gold per 50 sec in addition to food) \n• Flemish Revolution (Upgrades all existing Villagers to Flemish Militia; create Flemish Militia at Town Centers)\n\n<b>Team Bonus:<b> \nRelics generate 30 food per minute besides gold"
 
-120186 "Infantry civilization \n\n• Start with +100 stone \n• Castles and Town Centers +100% building speed \n• Infantry, Cavalry, Scout, Archer, Cavalry Archer, Hand Cannoneer, Petard class units receive 50% less bonus damage \n• Farm upgrades provide +100% additional food \n• Can build Donjon \n\n<b>Unique Unit:<b> \n• Serjeant (infantry can build Donjons)\n\n<b>Unique Techs:<b> \n• First Crusade (Each Town Center (maximum 5) spawns a one-time batch of 7 Serjeants); All units +3 conversion resistance level, +2 min/+4 max conversion time \n• Hauberk (Knight-Line units +1/+2P armor)\n\n<b>Team Bonus:<b> \nThe first transport ship is free and can be trained instantly"
+120186 "Infantry civilization \n\n• Start with +100 stone \n• Castles and Town Centers +100% building speed \n• Infantry, Cavalry, Scout, Archer, Cavalry Archer, Hand Cannoneer, Petard class units receive 50% less bonus damage \n• Farm upgrades provide +100% additional food \n• Can build Donjon \n\n<b>Unique Unit:<b> \n• Serjeant (infantry can build Donjons)\n\n<b>Unique Techs:<b> \n• First Crusade (Each Town Center (maximum 5) spawns a one-time batch of 7 Serjeants); All units +3 conversion resistance level, +2 min/+4 max conversion time \n• Hauberk (Knight-Line units +1/+2P armor)\n\n<b>Team Bonus:<b> \nTransport ships -50% cost, +5 LOS"
 
 28340 "Upgrade to <b>Elite Coustillier<b> (<cost>) (time: 45) \nUpgrades your Coustillier and lets you create Elite Coustillier, which are stronger. \n+30 HP, +3 attack, -1 training time, +5 charged attack."
 28341 "Upgrade to <b>Elite Serjeant<b> (<cost>) (time: 45) \nUpgrades your Serjeant and lets you create Elite Serjeant, which are stronger. \n+20 HP, +3 attack, +1/+1P armor, +2 LOS."
-28342 "Research <b>Burgundian Vineyards<b> (<cost>) (time: 45) \nConvert half of food into gold (2 food for 1 gold). Farmers generate 1 gold per 50 sec in addition to food."
+28342 "Research <b>Burgundian Vineyards<b> (<cost>) (time: 45) \nFarmers generate 1 gold per 50 sec in addition to food."
 28343 "Research <b>Flemish Revolution<b> (<cost>) (time: 10) \nUpgrades all existing Villagers to Flemish Militia and allows Flemish Militia to be created at the Town Center."
 28344 "Research <b>First Crusade<b> (<cost>) (time: 60) \nEach existing Town Center (maximum 5) spawns a one-time batch of 7 Serjeants; All units +3 conversion resistance level, +2 min/+4 max conversion time."
 28345 "Research <b>Hauberk<b> (<cost>) (time: 45) \nKnight-line units +1/+2P armor."
 
 8340 "Upgrade to Elite Coustillier (+30 HP, +3 attach, -1 training time, +5 charged attack)"
 8341 "Upgrade to Elite Serjeant (+20 HP, +3 attack, +1/+1P armor, +2 LOS)"
-8342 "Research Burgundian Vineyards (Convert half of food into gold; Farmers generate 1 gold per 50 sec in addition to food)"
+8342 "Research Burgundian Vineyards (Farmers generate 1 gold per 50 sec in addition to food)"
 8343 "Research Flemish Revolution (Upgrades all existing Villagers to Flemish Militia; create Flemish Militia at Town Centers)"
 8344 "Research First Crusade (Each Town Center (maximum 5) spawns a one-time batch of 7 Serjeants); All units +3 conversion resistance level, +2 min/+4 max conversion time"
 8345 "Research Hauberk (Knight-line units +1/+2P armor)"
