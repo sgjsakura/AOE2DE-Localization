@@ -766,7 +766,7 @@
 120177 "Siege and Elephant civilization \n\n• No buildings required to advance to the next age or to unlock other buildings \n• Farmers don't require Mills/Town Centers to drop off food, but -5% work rate \n• Battle Elephants +10% moving speed\n• Villagers can garrison in Houses \n\n<b>Unique Unit:<b> \nBallista Elephant (Scorpion on elephant) \n\n<b>Unique Techs: <b>\n• Tusk Swords (Battle Elephant +3 attack) \n• Double Crossbow (Ballista Elephant and Scorpion have secondary arrow) \n\n<b>Team bonus: <b>\nScorpion +1 max range"
 120178 "Naval civilization \n\n• Advancing to the next age -40% time \n• Fish Traps -33% cost\n• Fish Traps x3 food amount\n• Battle Elephants -30%/-40% cost at Castle/Imperial Age \n\n<b>Unique Unit:<b> \nKarambit Warrior (Infantry uses only half of population) \n\n<b>Unique Techs: <b>\n• Thalassocracy (upgrades Docks to Harbors, which fire arrows) \n• Forced Levy (Militia-Line units gold cost converted to food) \n\n<b>Team bonus: <b>\nDocks +100 LOS%"
 
-120179 "Monk and Elephant civilization \n\n• Lumber Camp upgrades free \n• Infantries +1 attack per age starting in Feudal Age \n• Monastery techs cost -50% \n\n<b>Unique Unit : <b>\nArambai (High attack, low accuray cavalry archer) \n\n<b>Unique Techs: <b>\n• Howdah (Battle Elephants +1/2P armor) \n• Manipur Cavalry (Cavalry class, Scout class units and Arambai +5 damage vs Archers) \n\n<b>Team bonus: <b>\nRelics visible on the map at the start of the game"
+120179 "Monk and Elephant civilization \n\n• Lumber Camp upgrades free \n• Infantries +1 attack per age starting in Feudal Age \n• Monastery techs cost -50% \n\n<b>Unique Unit : <b>\nArambai (High attack, low accuray cavalry archer) \n\n<b>Unique Techs: <b>\n• Howdah (Battle Elephants +1/2P armor) \n• Manipur Cavalry (Cavalry class and Scout class units +5 damage vs Archers) \n\n<b>Team bonus: <b>\nRelics visible on the map at the start of the game"
 
 120180 "Archer civilization \n\n• Enemy positions are revealed at the start of the game \n• Archery Range units +20% HP \n• Conscription free \n• Economic upgrading techs (All techs in Mills, Lamber camps, and Mining camps; Hand cart and Wheel barrow; Gillnets) cost no wood\n\n<b>Unique Units:<b> \nRattan Archer (Ancher better combats with archers) \n\n<b>Unique Techs: <b>\n• Chatras (Battle Elephants +100 HP) \n• Paper Money (Each team member receives 500 gold) \n\n<b>Team bonus: <b>\nImperial Skirmisher upgrade available in the Imperial Age"
 
@@ -780,7 +780,7 @@
 8293 "Research Thalassocracy (Upgrade your Docks to Harbors, which are stronger and fire arrows)"
 8294 "Research Forced Levy (Militia-Line cost extra food but no gold)"
 8295 "Research Howdah (Battle Elephants +1/2P armor)"
-8296 "Research Manipur Cavalry (Cavalry class, Scout class units and Arambai +5 damage vs Archers)"
+8296 "Research Manipur Cavalry (Cavalry class and Scout class units +5 damage vs Archers)"
 8297 "Research Chatras (Battle Elephants +100 HP)"
 8298 "Research Paper Money (Each team member receives +500 gold)"
 
@@ -823,7 +823,7 @@
 28293 "Research <b>Thalassocracy<b> (<cost>) (time: 40) \nUpgrades your Docks to Harbors, which fire arrows.\n+200 HP, +2/2P armor, +4 LOS, search radius +4; attack 3; Reload time: 3; Accuracy: 100%; \nAdditional damage: +14 vs Ships; Secondary arrows: 3; Secondary arrow base attack: 0 (causes at least 1 damage); Secondary arrow additonal damage: +1 vs Ships, +1 vs camels."
 28294 "Research <b>Forced Levy<b> (<cost>) (time: 40) \nMilitia-line gold cost is replaced by additional food cost."
 28295 "Research <b>Howdah<b> (<cost>) (time: 40) \nBattle Elephant +1/2P armor."
-28296 "Research <b>Manipur Cavalry<b> (<cost>) (time: 40) \nCavalry class, Scout class units and Arambai +5 damage vs Archers."
+28296 "Research <b>Manipur Cavalry<b> (<cost>) (time: 40) \nCavalry class and Scout class units +5 damage vs Archers."
 28297 "Research <b>Chatras<b> (<cost>) (time: 40) \nBattle Elephant +100 HP."
 28298 "Research <b>Paper Money<b> (<cost>) (time: 60) \nYou and all your allies receive +500 Gold."
 
