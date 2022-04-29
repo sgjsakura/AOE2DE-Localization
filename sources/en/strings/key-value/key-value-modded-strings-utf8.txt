@@ -947,7 +947,7 @@
 
 26577 "Create <b>Winged Hussar<b> (<cost>) \nUnique to Poles and Lithuanians. Fast cavalry for scouting and raiding. Resistant to conversion (+4 minimal conversion time). Strong vs. Monks and gunpowder units. Weak vs. Pikemen and Camel Riders.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>\nClass: Cavalry; Tags: Cavalry; Training time: 30; Moving speed: 1.5; Reload time: 1.9; LOS: 6; Search radius: 6.\nAdditional damages: +14 vs. Monks, +4 vs. Gunpowder units. \n\nBefore Feudal Age gets: -2 LOS/search radius"
 
-26579 "Build <b>Houfnice<b> (<cost>) \nBohemian unique siege unit. Siege weapon with long range. Strong vs. buildings and siege weapons. Weak vs. melee units.<i> Upgrades: attack, range (University); more resistant to Monks (Monastery).<i> \n<hp> <attack> (melee) <armor> <piercearmor> <range>\nClass: Siege weapon; Tags: Siege weapons, Gunpowder units; Training time: 56; Moving speed: 0.7; Reload time: 6.5; Attack delay: 0.21; Accuracy: 100%; Blast radius: 0.8; LOS: 14; Search radius: 14.\nAdditional damages: +250 vs. buildings(siege), +44 extra vs. defensive bulidings, +55 vs. ships and fishing ships, +20 vs siege weapons, +55 extra vs. Hussite Wagons."
+26579 "Build <b>Houfnice<b> (<cost>) \nBohemian unique siege unit. Siege weapon with long range. Strong vs. buildings and siege weapons. Weak vs. melee units.<i> Upgrades: attack, range (University); more resistant to Monks (Monastery).<i> \n<hp> <attack> (melee) <armor> <piercearmor> <range>\nClass: Siege weapon; Tags: Siege weapons, Gunpowder units; Training time: 56; Moving speed: 0.7; Reload time: 6.5; Attack delay: 0.21; Accuracy: 100%; Blast radius: 0.8; LOS: 14; Search radius: 14.\nAdditional damages: +250 vs. buildings(siege), +50 extra vs. defensive bulidings, +50 vs. ships and fishing ships, +20 vs siege weapons, +50 extra vs. Hussite Wagons."
 
 26581 "Build <b>Folwark<b> (<cost>) \nUnique building of the Poles. Used to deposit food and research farming technologies. Immediately collects 10% of food from nearby newly constucted farms. Provides 5 population. Build near forage bushes or other source of food to gather food faster.<i> Upgrades: line of sight (Town Center); hit points, armor (University); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range> <garrison>\nClass: Building; Tags: Buildings; Building time: 40; LOS: 6; Search radius: 6."
 
@@ -961,7 +961,7 @@
 8350 "Research Wagenburg Tactics (Gunpowder units +15% moving speed)"
 8351 "Research Hussite Reforms (Monks training and Monastery upgrades have their gold cost replaced by food)"
 8352 "Upgrade to Winged Hussar (+20 HP, +2 attack, +1 armor, -0.1 reload time, +4 damage vs. Monks, +4 damage vs. Gunpowder units)"
-8353 "Upgrade to Houfnice (+10 HP, +15 attack, +1P armor, +0.3 blast radius, +50 damage vs. buildings(siege), +15 extra damage vs defensive buildings, +15 damage vs. ships and fishing ships, +15 damage vs Hussite Wagons)"
+8353 "Upgrade to Houfnice (+10 HP, +15 attack, +1P armor, +0.3 blast radius, +50 damage vs. buildings(siege), +10 extra damage vs defensive buildings, +10 damage vs. ships and fishing ships, +10 damage vs Hussite Wagons)"
 
 28346 "Upgrade to <b>Elite Obuch<b> (<cost>) (time: 45) \nUpgrades your Obuch and lets you create Elite Obuch, which are stronger.\n+15 HP, +2 attack, +1 damage vs. Eagle Warriors, +2 damage vs. Buildings."
 28347 "Upgrade to <b>Elite Hussite Wagon<b> (<cost>) (time: 45) \nUpgrades your Hussite Wagons and lets you create Elite Hussite Wagons, which are stronger.\n+50 HP, +3 attack, +3P armor, +5% accuracy, +1 damage vs. Buildings(siege)."
@@ -970,7 +970,7 @@
 28350 "Research <b>Wagenburg Tactics<b> (<cost>) (time: 45) \nGunpowder units +15% moving speed."
 28351 "Research <b>Hussite Reforms<b> (<cost>) (time: 45) \nMonks training and Monastery upgrades have their gold cost replaced by food."
 28352 "Upgrade to <b>Winged Hussar<b> (<cost>) (time: 60) \nUpgrades your Light Cavalry and lets you create Winged Hussars, which are stronger.\n+20 HP, +2 attack, +1 armor, -0.1 reload time, +4 damage vs. Monks, +4 damage vs. Gunpowder units."
-28353 "Upgrade to <b>Houfnice<b> (<cost>) (time: 140) \nUpgrades your Bombard Cannons and lets you create Houfnice, which are stronger.\n+10 HP, +15 attack, +1P armor, +0.3 blast radius, +50 damage vs. buildings(siege), +15 extra damage vs defensive buildings, +15 damage vs. ships and fishing ships, +15 damage vs Hussite Wagons."
+28353 "Upgrade to <b>Houfnice<b> (<cost>) (time: 140) \nUpgrades your Bombard Cannons and lets you create Houfnice, which are stronger.\n+10 HP, +15 attack, +1P armor, +0.3 blast radius, +50 damage vs. buildings(siege), +10 extra damage vs defensive buildings, +10 damage vs. ships and fishing ships, +10 damage vs Hussite Wagons."
 
 
 // Operation related tooltips
