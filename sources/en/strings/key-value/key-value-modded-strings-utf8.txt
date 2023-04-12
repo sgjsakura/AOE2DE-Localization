@@ -148,7 +148,7 @@
 8375 "Research Elite Cannon Galleon (+2 max range/LOS/search radius; +10 attack, +75 damage vs Buildings(siege))"
 8376 "Research Hoardings (Castle +21% HP)"
 8377 "Research Ship wright (All ships -20% wood cost, -35% training time)"
-8378 "Research Siege Engineers (Siege weapon class, Trebuchets, Scorpions, Ballista Elephants and Armored Elephants +20% damage vs Buildings (siege), +1 max range (no range increase for Rams and Armored Elephants); Petard +200 damage vs Buildings (siege); Flaming Camels +40 damage vs Buildings (siege)"
+8378 "Research Siege Engineers (Siege weapon class, Trebuchets, Scorpions, Ballista Elephants and Armored Elephants +20% damage vs Buildings (siege), +1 max range (no range increase for Rams and Armored Elephants); Petard +200 damage vs Buildings (siege); Flaming Camels +40 damage vs Buildings (siege))"
 8379 "Research Hul'che Javelineers (Skirmishers and Genitours throw a second projectile (causes 1 damage))"
 8380 "Research Eupseong (Watch Towers, Guard Towers and Keeps +2 max range/LOS/search radius)"
 8381 "Upgrade to Elite Longbowman. (+5 HP, +1 attack, +1P armor, +1 max range/LOS/search radius, +10% accuracy)"
