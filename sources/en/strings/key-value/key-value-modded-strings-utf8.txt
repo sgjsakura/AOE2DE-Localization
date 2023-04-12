@@ -3,7 +3,7 @@
 8012 "Research Crop Rotation (Farm food +175)"
 8013 "Research Heavy Plow (Farm food +125; Villager food capacity +1)"
 8014 "Research Horse Collar (Farm food +75)"
-8015 "Research Guilds (trading fee decreases to 15%"
+8015 "Research Guilds (trading fee decreases to 15%)"
 8017 "Research Banking (no tribute fee)"
 8019 "Research Cartography (see ally LOS)"
 
