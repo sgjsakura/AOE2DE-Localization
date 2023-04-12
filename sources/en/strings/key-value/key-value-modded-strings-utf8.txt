@@ -1083,7 +1083,7 @@
 3922 "Right-click to pick up this relic with your Monk. \nEach relic in your Monasteries generate 30 gold per minute."
 3932 "Right-click to drop off the relic at this Monastery. \nEach relic in your Monasteries generate 30 gold per minute."
 
-4924 "<b>Heal<b> \nOrder your Monk to heal a wounded unit to its full hit points. \n\nThe healing rate is 1HP per 0.4 sec. The healing range is 4, and not affected by Block Printing."
+4924 "<b>Heal<b> \nOrder your Monk to heal a wounded unit to its full hit points. \n\nThe healing rate is 1HP per 0.4 sec. The healing range is 4, and not affected by Block Printing; If multiple monks heal a single target in the same time, all additional monks have a halfed heal rate (1HP per 0.8 sec)."
 4925 "<b>Convert<b> \nOrder your Monk to convert an enemy unit or building to your player color and control. The Monk must rest to restore his faith after a successful conversion. \n\nMonk conversion mechanics: Try to convert the target once per second. Before the min conversion time, conversion has no effect; After the min conversion time, each conversion has a success rate of (28% / resistance level); After the max conversion time, each conversion has a success rate of (1000% / resistance level), note level less than 1 is regarded as 1. Unless otherwise specified, units' resistance level is 0, and the min/max conversion time is 4/10; Buildings' resistance level is 3, and the min/max conversion time is 15/25."
 
 3751 "Click to convert this unit to your control and player color. \nHover your cursor on monks' Convert button to see more detail."
