@@ -148,7 +148,7 @@
 8375 "Research Elite Cannon Galleon (+2 max range/LOS/search radius; +10 attack, +0.05 blast range, +75 damage vs Buildings(siege))"
 8376 "Research Hoardings (Castle +21% HP, Donjon (Sicilians) +44% HP)"
 8377 "Research Ship wright (All ships -20% wood cost, -35% training time)"
-8378 "Research Siege Engineers (Siege weapon class, Trebuchets, Scorpions, Ballista Elephants and Armored Elephants-Line +20% damage vs Buildings (siege), +1 max range (no range increase for Rams and Armored Elephants-Line); Petard +200 damage vs Buildings (siege); Flaming Camels +80 damage vs Buildings (siege))"
+8378 "Research Siege Engineers (Siege weapon class, Trebuchets, Scorpions, Ballista Elephants, Armored Elephants-Line, Cannon Galleons and Dromons +20% damage vs Buildings (siege), +1 max range (no range increase for Rams and Armored Elephants-Line); Petard +200 damage vs Buildings (siege); Flaming Camels +80 damage vs Buildings (siege))"
 8379 "Research Hul'che Javelineers (Skirmishers and Genitours throw a second projectile (causes 1 damage))"
 8380 "Research Eupseong (Watch Towers, Guard Towers and Keeps +2 max range/LOS/search radius)"
 8381 "Upgrade to Elite Longbowman. (+5 HP, +1 attack, +1P armor, +1 max range/LOS/search radius, +10% accuracy)"
@@ -682,7 +682,7 @@
 28375 "Research <b>Elite Cannon Galleon<b> (<cost>) (time: 30) \nUpgrades your Cannon Galleons and lets you build Elite Cannon Galleons, which have +2 range, +10 normal attack, and +100 attack against buildings.\n+2 max range/LOS/search radius; +10 attack, +0.05 blast range, +75 damage vs Buildings(siege)."
 28376 "Research <b>Hoardings<b> (<cost>) (time: 75) \nCastle +21% HP, Donjon (Sicilians) +44% HP."
 28377 "Research <b>Ship wright<b> (<cost>) (time: 60) \nShips -20% wood cost, -35% training time"
-28378 "Research <b>Siege Engineers<b> (<cost>) (time: 45) \nSiege weapon class, Trebuchets, Scorpions, Ballista Elephants and Armored Elephants +20% damage vs Buildings (siege), +1 max range/LOS/search radius (no range increase for Rams and Armored Elephants); Petards +200 damage vs Buildings (siege); Flaming Camels +80 damage vs Buildings (siege)."
+28378 "Research <b>Siege Engineers<b> (<cost>) (time: 45) \nSiege weapon class, Trebuchets, Scorpions, Ballista Elephants, Armored Elephants-Line, Cannon Galleons and Dromons +20% damage vs Buildings (siege), +1 max range/LOS/search radius (no range increase for Rams and Armored Elephants); Petards +200 damage vs Buildings (siege); Flaming Camels +80 damage vs Buildings (siege)."
 28379 "Research <b>Hul'che Javelineers<b> (<cost>) (time: 40) \nSkirmishers and Genitours throw a second projectile (causes 1 damage)."
 28380 "Research <b>Eupseong<b> (<cost>) (time: 40) \nWatch Towers, Guard Towers and Keeps +2 max range/LOS/search radius."
 28381 "Upgrade to <b>Elite Longbowman<b> (<cost>) (time: 60) \nUpgrades your Longbowmen and lets you create Elite Longbowmen, which are stronger and better armored.\n+5 HP, +1 attack, +1P armor, +1 max range/LOS/search radius, +10% accuracy."
@@ -1046,7 +1046,7 @@
 
 
 
-120192 "Infantry civilization\n\n• Villagers build and repair +5% work rate, Farmers +3.8% work rate\n• Galley-line +1 attack,  War Galleys +1/+1P armor, Galleons and Dromons +2/+2P armor\n• Infantry receives double effect from Blacksmith armor upgrades \n• Scorpions cost -60% gold and benefit from Ballistics research\n\n<b>Unique Unit:<b>\nCenturion (cavalry can enhance nearby infantries), Legionary (infantry replace Two-Handed Swordsman)\n\n<b>Unique Techs:<b>\n• Ballistas (Scorpions and Galley-line units -25% reload time)\n• Comitatenses (Militia-line, Knight-line, and Centurions -33% training time, get 5 charge damage within 20 charge time)\n\n<b>Team Bonus:<b>\nScorpion-line units minimum range reduced to 1"
+120192 "Infantry civilization\n\n• Villagers +5% work rate for gathering resources, building and repairing, Farmers +3.8% extra work rate\n• Galley-line +1 attack,  War Galleys +1/+1P armor, Galleons and Dromons +2/+2P armor\n• Infantry receives double effect from Blacksmith armor upgrades \n• Scorpions cost -60% gold and benefit from Ballistics research\n\n<b>Unique Unit:<b>\nCenturion (cavalry can enhance nearby infantries), Legionary (infantry replace Two-Handed Swordsman)\n\n<b>Unique Techs:<b>\n• Ballistas (Scorpions and Galley-line units -25% reload time)\n• Comitatenses (Militia-line, Knight-line, and Centurions -33% training time, get 5 charge damage within 20 charge time)\n\n<b>Team Bonus:<b>\nScorpion-line units minimum range reduced to 1"
 
 26052 "Create <b>Centurion<b> (<cost>)\nRoman unique cavalry unit. Increases movement and attack speed of nearby Militia-line units. Strong vs. infantry. Weak vs. Pikemen and Camel Riders. <i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed, to Elite Centurion 1100F, 900G (Castle); more resistant to Monks.<i>\n<hp> <attack> <armor> <piercearmor> <range> \nClass: cavalry; Tags: cavalry, unique unit; Training time: 24; Moving speed: 1.35; Reload time: 1.9; LOS: 4; Search radius: 4. \n\nThis unit can provide +10% moving speed and -20% reload time effect (non-accumulative) for ally Militia-Line units within 10 range."
 
