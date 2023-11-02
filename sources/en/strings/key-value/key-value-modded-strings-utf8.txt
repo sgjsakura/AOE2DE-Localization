@@ -41,7 +41,7 @@
 8090 "Research Tracking (Infantry class units +2 LOS)"
 8093 "Research Ballistics (missiles more accurate for moving target)"
 8096 "Upgrade to Capped Ram. (+25 HP, +1 attack, +10P armor, +1 garrison capacity, +5 blast range, +10 damage vs Buildings (siege), +25 damage vs Siege weapons, +1 Ram armor)"
-8098 "Upgrade to Elite Skirmisher. (+5 HP, +1 attack, +1P armor, +1 max range/LOS/search radius, +1 damage vs Archer, +2 extra vs cavalry archers)"
+8098 "Upgrade to Elite Skirmisher. (+5 HP, +1 attack, +1P armor, +1 max range/LOS/search radius, +1 damage vs Pikeman, +1 damage vs Archer, +2 extra vs cavalry archers)"
 8100 "Upgrade to Crossbowman. (+5 HP, +1 attack, +1 max range/LOS/search radius, -8 training time , +5% accuracy)"
 8101 "Advance to Feudal Age."
 8102 "Advance to Castle Age."
@@ -76,7 +76,7 @@
 8236 "Upgrade to Imperial Camel Rider. (+20 HP, +1 attack, -2 training time)"
 8237 "Upgrade to Elite Organ Gun. (+10 HP, +2 attack, +2P armor, +1 projectile amount, +1 damage vs. building(siege))"
 8238 "Upgrade to Elite Camel Archer. (+5 HP, +1 attack, +1 armor, +2 damage vs cavalry archers)"
-8239 "Upgrade to Elite Genitour. (+5 HP, +1 attack, +1 LOS/search radius, -2 training time , +1 damage vs Archer, +2 extra vs cavalry archers)"
+8239 "Upgrade to Elite Genitour. (+5 HP, +1 attack, +1 LOS/search radius, -2 training time , +1 damage vs Archer, +2 extra vs cavalry archers, +1 cavalry archer armor)"
 8240 "Upgrade to Elite Caravel. (+20 HP, +2 attack, +1 max range, +1 damage vs Ships and Building)"
 8241 "Upgrade to Elite Gbeto. (+10 HP, +3 attack, +1 max range/LOS/search radius)"
 8242 "Upgrade to Heavy Demolition Ship . (+10 HP, +30 attack, +2P armor, +60 vs Buildings (siege), Ship +1 armor, but search radius -1)"
@@ -187,7 +187,7 @@
 8420 "Research El Dorado (Eagle Warrior-Line +40 HP)"
 8421 "Research Furor Celtica (Siege Workshop units +40% HP)"
 8422 "Research Drill (Siege Workshop units +50% moving speed)"
-8423 "Research Citadels (Castles fire bullets, receive +3 attack, +3 damage vs. infantries, +3 damage vs. rams; Caslte secondary arrows +3 attack, +3 damage vs. infantries, +3 damage vs. rams, +2 damage vs. pikemen; Caslte -25% received addtional damage.)"
+8423 "Research Citadels (Castles fire bullets, receive +4 attack, +3 damage vs. infantries, +3 damage vs. rams; Caslte secondary arrows +4 attack, +3 damage vs. infantries, +3 damage vs. rams, +2 damage vs. pikemen; Caslte -25% received addtional damage.)"
 8424 "Research Zealotry (Camel Rider-Line, Mamelukes, Camel Archers and Flaming Camels units +20 HP)"
 8425 "Research Artillery (Cannon Tower, Bombard Cannon-Line and Cannon Galley +2 max range/LOS/Search radius)"
 8426 "Research Crenellations (Castle +3 max range, infantries garrisoned in Towers, Casltes and Kreposts garrisoned can fire arrows)"
@@ -265,7 +265,7 @@
 
 26105 "Create <b>Janissary<b> (<cost>) \nTurkish unique hand cannoneer with longer range and no minimum range. Strong vs. infantry. Weak vs. archers.<i> Upgrades: armor (Blacksmith); creation speed, to Elite Janissary 850F, 750G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Hand cannon; Tags: Archer, Gunpowder units, Unique Unit; Training time: 21; Moving speed: 0.96; Reload time: 3.45; Attack delay: 0.4; Accuracy: 50%; Projectile speed: 7.5; Blast Range: 0.75; LOS: 10; Search radius: 10. \nAdditional damage: +2 vs Rams."
 
-26106 "Build <b>Longboat<b> (<cost>) \nViking unique Ship that fires multiple arrows. Strong vs. War Galleys, land units, and buildings. <i> Upgrades: armor, cost, speed, to Elite Longboat 750F, 475G (Dock); attack, range (Blacksmith); attack, accuracy (University); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: War ship; Tags: Ship, Unique Unit; Training time: 25; Moving speed: 1.54; Reload time: 3; Accuracy: 100%; Projectile speed: 6; Rotation time: 0.05; LOS: 8; Search radius: 8. \nAdditional damage: +9 vs Ships and Fishing Ships, +4 vs Rams, +7 vs Buildings (siege). Secondary arrows: 3; Secondary arrow base attack: 0 (causes 1 damage for units without extra damages); Secondary arrow additional damage: +1 vs Ships, +1 vs camels."
+26106 "Build <b>Longboat<b> (<cost>) \nViking unique Ship that fires multiple arrows. Strong vs. War Galleys, land units, and buildings. <i> Upgrades: armor, cost, speed, to Elite Longboat 750F, 475G (Dock); attack, range (Blacksmith); attack, accuracy (University); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: War ship; Tags: Ship, Unique Unit; Training time: 25; Moving speed: 1.54; Reload time: 3; Accuracy: 100%; Projectile speed: 6; Rotation time: 0.05; LOS: 8; Search radius: 8. \nAdditional damage: +9 vs Ships and Fishing Ships, +4 vs Rams, +7 vs Buildings (siege). \nSecondary arrows: 3; base attack: 0 (causes 1 damage for units without extra damages); Accuracy: 100%; Projectile speed: 6; Secondary arrow additional damage: +1 vs Ships, +1 vs camels."
 
 26107 "Create <b>Longbowman<b> (<cost>) \nBritish unique archer with very long range. Strong vs. infantry. Weak vs. cavalry and Skirmishers. <i> Upgrades: attack, range, armor (Blacksmith); attack, accuracy (University); creation speed, to Elite Longbowman 850F, 850G (Castle); more resistant to Monks (Monastery).<i> \n<hp> <attack> <armor> <piercearmor> <range>.<hp>\nClass: Archer; Tags: Archer; Unique Unit; Training time: 18; Moving speed: 0.96; Reload time: 2; Attack delay: 0.5; Accuracy: 70%; Projectile speed: 7; Dispersion radius: 0.33; LOS: 7; Search radius: 7. \nAdditional damage: +2 vs Pikeman."
 
@@ -610,7 +610,7 @@
 28236 "Upgrade to <b>Imperial Camel Rider<b> (<cost>) (time: 125) \nUpgrades your Heavy Camel Riders and lets you build Imperial Camel Riders, which are stronger and better armored.\n+20 HP, +1 attack, -2 training time."
 28237 "Upgrade to <b>Elite Organ Gun<b> (<cost>) (time: 45) \nUpgrades your Organ Guns and lets you create Elite Organ Guns, which are stronger.\n+10 HP, +2 attack, +2P armor, +1 projectile amount, +1 damage vs. building(siege)."
 28238 "Upgrade to <b>Elite Camel Archer<b> (<cost>) (time: 45) \nUpgrades your Camel Archers and lets you create Elite Camel Archers, which are stronger.\n+5 HP, +1 attack, +1 armor, +2 damage vs cavalry archers."
-28239 "Upgrade to <b>Elite Genitour<b> (<cost>) (time: 60) \nUpgrades your Genitours and lets you create Elite Genitours, which are stronger.\n+5 HP, +1 attack, +1 LOS/search radius, -2 training time , +1 damage vs Archer, +2 extra vs cavalry archers."
+28239 "Upgrade to <b>Elite Genitour<b> (<cost>) (time: 60) \nUpgrades your Genitours and lets you create Elite Genitours, which are stronger.\n+5 HP, +1 attack, +1 LOS/search radius, -2 training time , +1 damage vs Archer, +2 extra vs cavalry archers, +1 cavalry archer armor."
 28240 "Upgrade to <b>Elite Caravel<b> (<cost>) (time: 60) \nUpgrades your Caravels and lets you create Elite Caravels, which are stronger.\n+20 HP, +2 attack, +1 max range, +1 damage vs Ships and Building."
 28241 "Upgrade to <b>Elite Gbeto<b> (<cost>) (time: 45) \nUpgrades your Gbetos and lets you create Elite Gbetos, which are stronger.\n+10 HP, +3 attack, +1 max range/LOS/search radius."
 28242 "Upgrade to <b>Heavy Demolition Ship <b> (<cost>) (time: 50) \nUpgrades your Demolition Ships and lets you build Heavy Demolition Ships, which are stronger.\n+10 HP, +30 attack, +2P armor, +60 vs Buildings (siege), Ship +2 armor, but search radius -1."
@@ -717,7 +717,7 @@
 28420 "Research <b>El Dorado<b> (<cost>) (time: 70) \nEagle Warrior-Line +40 HP."
 28421 "Research <b>Furor Celtica<b> (<cost>) (time: 50) \nSiege Workshop units +40% HP."
 28422 "Research <b>Drill<b> (<cost>) (time: 60) \nSiege Workshop units +50% moving speed."
-28423 "Research <b>Citadels<b> (<cost>) (time: 50) \nCastles fire bullets, receive +3 attack, +3 damage vs. infantries, +3 damage vs. rams; Caslte secondary arrows +3 attack, +3 damage vs. infantries, +3 damage vs. rams, +2 damage vs. pikemen; Caslte -25% received addtional damage."
+28423 "Research <b>Citadels<b> (<cost>) (time: 50) \nCastles fire bullets, receive +4 attack, +3 damage vs. infantries, +3 damage vs. rams; Caslte secondary arrows +4 attack, +3 damage vs. infantries, +3 damage vs. rams, +2 damage vs. pikemen; Caslte -25% received addtional damage."
 28424 "Research <b>Zealotry<b> (<cost>) (time: 50) \nCamel Rider-Line, Mamelukes, Camel Archers and Flaming Camels units +20 HP."
 28425 "Research <b>Artillery<b> (<cost>) (time: 40) \nCannon Tower, Bombard Cannon-Line and Cannon Galley +2 max range/LOS/Search radius."
 28426 "Research <b>Crenellations<b> (<cost>) (time: 60) \nCastle +3 max range; infantries garrisoned in Towers, Casltes and Kreposts garrisoned can fire arrows."
