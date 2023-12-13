@@ -1112,7 +1112,7 @@
 28407 "Research <b>Cilician Fleet<b> (<cost>) (time: 45) \nDemolition Raft-line +20% blast radius; Galley-line and Dromons +1 max range/LOS/search radius."
 28440 "Research <b>Svan Towers<b> (<cost>) (time: 45) \nAll towers, Donjons, Calstes, Kreposts, Town Centers and Fortified Churches +2 attack (for all arrows); Watch Tower-line (all arrows) deals 50% penetrate damage."
 28441 "Research <b>Aznauri Cavalry<b> (<cost>) (time: 45) \nAll mounted untis -15% population space."
-28442 "Upgrade to <b>Savar<b> (<cost>) (time: 160) \nUpgrades your Cavaliers and lets you create Savars, which are stronger and better armored. \n+25 HP, +2 attack, +1/+1P Armor, +1 LOS, +3 vs. Archers."
+28442 "Upgrade to <b>Savar<b> (<cost>) (time: 160) \nUpgrades your Cavaliers and lets you create Savars, which are stronger and better armored. \n+25 HP, +2 attack, +1/+1P Armor, +1 LOS, +2 vs. Archers."
 28449 "Upgrade to <b>Elite Qizilbash Warrior<b> (<cost>) (time: 50)\nUpgrades your Qizilbash Warriors and lets you create Elite Qizilbash Warriors, which are stronger. \n+40 HP, +3 attack, +1 LOS/search radius, +4 Cavalry Armor."
 
 28451 "Research <b>Bimaristan<b> (<cost>)\nMonks automatically heal all friendly units within 5 tiles circle range with 75 HP per minute (non accumulative)."
