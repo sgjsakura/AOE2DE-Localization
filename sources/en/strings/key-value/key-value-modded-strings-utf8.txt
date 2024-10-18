@@ -1000,7 +1000,7 @@
 
 26427 "Create <b>Elite Chakram Thrower<b> (<cost>)\nGurjara unique infantry unit with ranged melee attack. Strong vs. infantry. Weak vs. archers and siege weapons. <i> Upgrades: attack, armor (Blacksmith); speed (Barracks); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>\nClass: Infantry; Tags: Infantry, Unique Unit; Training time: 15; Moving speed: 1.15; Reload time: 2; Attack delay: 0.8; Accuracy: 100%; Projectile speed: 6; LOS: 6; Search radius: 8. \nAdditional damages: +1 vs. Infantries, +2 extra vs. Eagle Warriors, +2 vs. Buildings. \n\nThis unit deals 100% blast damage to other targets on the projectile path. This unit uses melee attack and armor upgrades and is not affected by archer attack and range upgrades, Thumb Ring, Chemistry and Ballistics."
 
-26428 "Create <b>Armored Elephant<b> (<cost>)\nAnti-building cavalry unit. Resistant to most ranged attacks. Weak vs. melee units. Cannot be converted by enemy Monks from distance.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); to Siege Elephant 850F (Siege Workshop); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>\nClass: Cavalry; Tags: Cavalry, Elephant, Siege weapon, Ram; Training time: 36; Moving speed: 0.6; Reload time: 3; LOS: 4; Search radius: 4. \nAdditional damages: +75 vs. Buildings (siege), +25 vs. Siege weapons. \nAdditional armors: +7 Cavalry armor, +17 Elephant armor. \n\nThis unit is affected by Bloodlines, Husbandry, Siege Engineers, Cavalry attack and armor upgrades."
+26428 "Create <b>Armored Elephant<b> (<cost>)\nAnti-building cavalry unit. Resistant to most ranged attacks. Weak vs. melee units. Cannot be converted by enemy Monks from distance.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); to Siege Elephant 850F (Siege Workshop); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>\nClass: Cavalry; Tags: Cavalry, Elephant, Siege weapon, Ram; Training time: 36; Moving speed: 0.6; Reload time: 3; LOS: 4; Search radius: 4. \nAdditional damages: +90 vs. Buildings (siege), +25 vs. Siege weapons. \nAdditional armors: +7 Cavalry armor, +17 Elephant armor. \n\nThis unit is affected by Bloodlines, Husbandry, Siege Engineers, Cavalry attack and armor upgrades."
 
 26430 "Create <b>Siege Elephant<b> (<cost>)\nAnti-building cavalry unit. Resistant to most ranged attacks. Weak vs. melee units. Cannot be converted by enemy Monks from distance.<i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>\nClass: Cavalry; Tags: Cavalry, Elephant, Siege weapon, Ram; Training time: 36; Moving speed: 0.6; Reload time: 3; Blast radius: 1.5; LOS: 4; Search radius: 4. \nAdditional damages: +105 vs. Buildings (siege), +35 vs. Siege weapons. \nAdditional armors: +8 Cavalry armor, +18 Elephant armor. \n\nThis unit is affected by Bloodlines, Husbandry, Siege Engineers, Cavalry attack and armor upgrades."
 
@@ -1029,7 +1029,7 @@
 8360 "Research Mahayana (Villagers -10% population cost)"
 8361 "Research Kshatriyas (Infantries, cavalries, archers, cavalry archers and Petards -25% food cost)"
 8362 "Research Frontier Guards (Camel Scout-Line units and Elephant Archers +4 armor)"
-8363 "Upgrade to Siege Elephant (+40 HP, +30 damage vs. Buildings(siege), +10 damage vs. Siege weapons, + 1.5 blast radius (33% blast damage), +3 Cavalry armor, +3 Elephant armor)"
+8363 "Upgrade to Siege Elephant (+50 HP, +15 damage vs. Buildings(siege), +10 damage vs. Siege weapons, + 1.5 blast radius (33% blast damage), +3 Cavalry armor, +3 Elephant armor)"
 8364 "Upgrade to Elite Ghulam (+10 HP, +2 attack, +3P armor, +0.05 moving speed, +1 damage vs. Archers)"
 8365 "Upgrade to Elite Shrivamsha Rider (+15 HP, +3 attack, -0.1 reload time, +1 LOS/search radius, +2 max charge value)"
 
@@ -1042,7 +1042,7 @@
 28360 "Research <b>Mahayana<b> (<cost>) (Time: 60)\nVillagers -10% population cost."
 28361 "Research <b>Kshatriyas<b> (<cost>) (Time: 45)\nInfantry class, Cavalry class, Scout class, Archer class, Cavalry Archer class, Special Cavalry Archer class, Petard class and Hand Cannoneer class units -25% food cost."
 28362 "Research <b>Frontier Guards<b> (<cost>) (Time: 60)\nCamel Scout-Line units and Elephant Archers +4 armor."
-28363 "Upgrade to <b>Siege Elephant<b> (<cost>) (Time: 60)\nUpgrades your Armored Elephants and lets you create Siege Elephants, which are stronger. \n+40 HP, +30 damage vs. Buildings(siege), +10 damage vs. Siege weapons, + 1.5 blast radius (33% blast damage), +3 Cavalry armor, +3 Elephant armor."
+28363 "Upgrade to <b>Siege Elephant<b> (<cost>) (Time: 60)\nUpgrades your Armored Elephants and lets you create Siege Elephants, which are stronger. \n+50 HP, +15 damage vs. Buildings(siege), +10 damage vs. Siege weapons, + 1.5 blast radius (33% blast damage), +3 Cavalry armor, +3 Elephant armor."
 28364 "Upgrade to <b>Elite Ghulam<b> (<cost>)\nUpgrades your Ghulams and lets you create Elite Ghulams, which are stronger. \n+10 HP, +2 attack, +3P armor, +0.05 moving speed, +1 damage vs. Archers."
 28365 "Upgrade to <b>Elite Shrivamsha Rider<b> (<cost>)\nUpgrades your Shrivamsha Riders and lets you create Elite Shrivamsha Riders, which are stronger. \n+15 HP, +3 attack, -0.1 reload time, +1 LOS/search radius, +2 max charge value."
 
@@ -1115,11 +1115,11 @@
 28442 "Upgrade to <b>Savar<b> (<cost>) (time: 160) \nUpgrades your Cavaliers and lets you create Savars, which are stronger and better armored. \n+25 HP, +2 attack, +1/+1P Armor, +1 LOS, +2 vs. Archers."
 28449 "Upgrade to <b>Elite Qizilbash Warrior<b> (<cost>) (time: 50)\nUpgrades your Qizilbash Warriors and lets you create Elite Qizilbash Warriors, which are stronger. \n+40 HP, +3 attack, +1 LOS/search radius, +4 Cavalry Armor."
 
-28451 "Research <b>Bimaristan<b> (<cost>)\nMonks automatically heal all friendly units within 5 tiles circle range with 75 HP per minute (non accumulative)."
+28451 "Research <b>Bimaristan<b> (<cost>) (time: 45)\nMonks automatically heal all friendly units within 5 tiles circle range with 75 HP per minute (non accumulative)."
 
 8462 "Research Devotion (All units +1 min/+1 max conversion time)"
 
-28462 "Research <b>Devotion<b> (<cost>)\nAll units +1 min/+1 max conversion time."
+28462 "Research <b>Devotion<b> (<cost>) (time: 40)\nAll units +1 min/+1 max conversion time."
 
 // Operation related tooltips
 
