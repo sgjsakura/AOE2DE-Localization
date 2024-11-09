@@ -1048,7 +1048,7 @@
 
 
 
-120192 "Infantry civilization\n\n• Villagers +5% work rate for gathering resources, building and repairing, Farmers +4% extra work rate\n• Galley-line units and Dromons +1/+1P armor\n• Infantry receives double effect from Blacksmith armor upgrades \n• Scorpions cost -60% gold\n\n<b>Unique Unit:<b>\nCenturion (cavalry can enhance nearby infantries), Legionary (infantry replace Two-Handed Swordsman)\n\n<b>Unique Techs:<b>\n• Ballistas (Scorpions and Galley-line units -25% reload time)\n• Comitatenses (Militia-line, Knight-line, and Centurions -33% training time, get 5 charge damage within 20 charge time)\n\n<b>Team Bonus:<b>\nScorpion-line units minimum range reduced to 1"
+120192 "Infantry civilization\n\n• Villagers +5% work rate for gathering resources, building and repairing, Farmers +4% extra work rate\n• Galley-line units and Dromons +1/+1P armor\n• Infantry receives double effect from Blacksmith armor upgrades \n• Scorpions cost -60% gold\n\n<b>Unique Unit:<b>\nCenturion (cavalry can enhance nearby infantries), Legionary (infantry replace Two-Handed Swordsman)\n\n<b>Unique Techs:<b>\n• Ballistas (Scorpions and Galley-line units -25% reload time, Galley-line units +2 attack)\n• Comitatenses (Militia-line, Knight-line, and Centurions -33% training time, get 5 charge damage within 20 charge time)\n\n<b>Team Bonus:<b>\nScorpion-line units minimum range reduced to 1"
 
 26052 "Create <b>Centurion<b> (<cost>)\nRoman unique cavalry unit. Increases movement and attack speed of nearby Militia-line units. Strong vs. infantry. Weak vs. Pikemen and Camel Riders. <i> Upgrades: attack, armor (Blacksmith); speed, hit points (Stable); creation speed, to Elite Centurion 1100F, 900G (Castle); more resistant to Monks.<i>\n<hp> <attack> <armor> <piercearmor> <range> \nClass: cavalry; Tags: cavalry, unique unit; Training time: 24; Moving speed: 1.35; Reload time: 1.9; LOS: 4; Search radius: 4. \n\nThis unit can provide +10% moving speed and -16.67% reload time effect (non-accumulative) for ally Militia-Line units within 10 tiles circle range."
 
@@ -1059,12 +1059,12 @@
 26055 "Build <b>Dromon<b> (<cost>)\nAnti-building siege warship with long range and area of effect attack, but cannot attack enemies at close range. Strong vs. buildings. Weak vs. other units.<i> Upgrades: armor, cost, speed (Dock); attack, range (University); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range> \nClass: warship; Tags: ship, unique unit; Training time: 65; Moving speed: 1.2; Reload time: 8; Projectile speed: 3.5; Accuracy: 100%; Projectile amount: 5; Blast radius: 0.8; Rotation speed: 0.05; minimum range: 3; LOS: 14; Search radius: 14. \nAdditional damages: +2 vs. siege weapons, +34 vs. buildings(siege), +15 vs. Walls and Gates, +9 vs. Castles; Secondary projectiles: 4; Secondary projectiles have the exactly same attribute with the main one."
 
 8443 "Upgrade to Elite Centurion (+35 HP, +2 attack, +1 armor; +2 buff range, buffed units +5% moving speed)"
-8444 "Research Ballistas (Scorpions -25% reload time, Galley-line units +3 attack)"
+8444 "Research Ballistas (Scorpions -25% reload time, Galley-line units +2 attack)"
 8445 "Research Comitatenses (Militia-line, Knight-line units and Centurions -33% training time, receive 5 charge damage within each charge 20 time)"
 8446 "Upgrade to Legionary (+15 HP, +3 attack, +1/+1P armor, +4 damage vs. infantries, +2 extra vs. Eagle Warriors, +1 damage vs. bulidings)"
 
 28443 "Upgrade to <b>Elite Centurion<b> (<cost>)\nUpgrades your Centurions and lets you create Elite Centurions, which are stronger. \n+35 HP, +2 attack, +1 armor; +2 buff range; buffed units +5% moving speed."
-28444 "Research <b>Ballistas<b> (<cost>)\nScorpions -25% reload time, Galley-line units +3 attack."
+28444 "Research <b>Ballistas<b> (<cost>)\nScorpions -25% reload time, Galley-line units +2 attack."
 28445 "Research <b>Comitatenses<b> (<cost>)\nMilitia-line, Knight-line units and Centurions -33% training time, receive 5 charge damage within each charge 20 time."
 28446 "Upgrade to <b>Legionary<b> (<cost>)\nUpgrades your Long Swordsmen and lets you create Legionaries, which are stronger and better armored. \n+15 HP, +3 attack, +1/+1P armor, +4 damage vs. infantries, +2 extra vs. Eagle Warriors, +1 damage vs. bulidings."
 
