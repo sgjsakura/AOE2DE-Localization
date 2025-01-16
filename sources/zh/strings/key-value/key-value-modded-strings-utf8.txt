@@ -1362,6 +1362,9 @@ IDS_OPT_TECH_TREE_PREVIEW "科技树预览"
 IDS_OPT_TECH_TREE_PREVIEW_HELP "选择启用科技树预览。启用此选项后，在游戏内将光标移动到科技树按钮上时会打开一个小型科技树面板，其将显示哪些单位和科技可供您使用。您还可以跟踪您已研究的科技和单位升级。"
 IDS_OPT_EXTENDED_UNIT_STATS "扩展的可视化单位统计数据"
 IDS_OPT_EXTENDED_UNIT_STATS_HELP "选择后，即可在选择单位或建筑时，在命令面板中显示额外的可视化统计数据。所要显示的额外统计数据是移动速度(5)、攻击间隔(10)、工作效率(13)、最小射程(20)、溅射范围(22)、生命自愈速率(109) 和附近的光环加成单位计数。此外，还会以额外的精度显示某些值。"
+IDS_DLC_PRAGUE "公爵的崛起"
+IDS_PAPHOS_GRAND_CAMPAIGN "希波战争战役"
+IDS_PAPHOS_GRAND_CAMPAIGN_HELP_TEXT "获取为希腊而战《希波战争》战役内容。"
 
 //单位名称误翻
 
